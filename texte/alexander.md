@@ -2,7 +2,7 @@
 # Postdigitale Literatur
 *Alexander Filatchev*## 
 
-## Braucht Postdigitale Literatur ein digitales medium?
+## Braucht Postdigitale Literatur ein digitales Medium?
 (Alte Frage: Wie wird das Verlagsunabhängige Publizieren von postdigitaler Literatur ermöglicht?)
 
 ...
