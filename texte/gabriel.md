@@ -1,4 +1,4 @@
 # Titel
-* Gabriel Marques Lopes *
+* Gabriel Marques Lopes*
 
 Hier kommt Text hin später...
