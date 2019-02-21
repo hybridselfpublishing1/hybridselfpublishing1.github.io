@@ -1,5 +1,7 @@
 
-# Titel
-*adwdwa*
+# Postdigitale Literatur
+*Alexander Filatchev*
 
-wadawdawdaw
+## Wie wird das Verlagsunabhängige Publizieren von postdigitale Literatur ermöglicht?
+
+
