@@ -18,6 +18,12 @@ postdigitales Produktions- und Darstellungsprinzip ist absolut aktuell
 
 www.gauss-pdf.com; www.trollthread.tumblr.com; www.0x0a.li; www.traumawein.at
 
+Andreas Sudmann -> Szenarien des Postdigitalen
+
+Hannes Bajohr -> Das Reskilling der Literatur
+
+####Hannes Bajohr -> Infradünne Plattformen (!)
+
 
 
 
