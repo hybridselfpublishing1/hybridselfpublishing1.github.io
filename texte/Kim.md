@@ -32,7 +32,7 @@
   Das Open-Source-Konzept in der bildenden Kunst zwischen versprochener Öffnung und versteckter Herrschaft
   von Katharina Stockmann
   
-  Einleitung -> Open Source in der Kunst und Erwähnung von Linux. S.3
+  Einleitung -> Open Source in der Kunst und Erwähnung von Linux. S.3 
   Open Source zu Open Culture S.12
 
 
