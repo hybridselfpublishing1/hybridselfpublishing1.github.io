@@ -26,4 +26,17 @@
   *"What is the goal of artistic practice? In the cases we discussed earlier, piracy is always associated with the re-appropriation of sombody else´s property. For me the role of the cultural pirate is more complex.It is a trickster, similar to the role of the artist, who has no predefined territory to roam, connects different thought, and questions established ways of thinking. (178/179)
          
   -> Amazon Hack welcher das Ansehen von der Buchvorschau auf das gesammte Buch erweitert
+  
+  https://books.google.de/books?id=vK4lbymMq1QC&pg=PA4&dq=open+source+debatte&hl=de&sa=X&ved=0ahUKEwjNrMHHkdLgAhXk6KYKHajjDWQQ6AEILDAB#v=onepage&q=open%20source%20debatte&f=false
+  
+  Das Open-Source-Konzept in der bildenden Kunst zwischen versprochener Öffnung und versteckter Herrschaft
+  von Katharina Stockmann
+  
+  Einleitung -> Open Source in der Kunst und Erwähnung von Linux. S.3
+  Open Source zu Open Culture S.12
+
+
+  
+  
+  
          
