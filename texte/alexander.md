@@ -48,3 +48,5 @@ Kenef Goldsmith -> (digitaler prozess)
 
 Florian Cramer, Postdigitales Schreiben. In: Hannes Bajohr (Hrsg.), Code und Konzept. Literatur und das Digitale. Berlin: Frohmann 2015. Zur Vagheit der Differenz ...
 
+
+Fokus auf Medienumbrüche u.a. mit dem Datum um 2000 eine historische Phase unter- sucht, in der die Transformation von analogen zu digitalen Medien zuneh- mend die Wahrnehmung der Öffentlichkeit bestimmte (vgl. Schnell 2006).
