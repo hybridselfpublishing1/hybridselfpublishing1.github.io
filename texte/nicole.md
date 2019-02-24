@@ -1,2 +1,2 @@
-Erste Fragestellung: Was ist mit ästhetischem Erlebnis gemeint bzw. Ästhetik im Gegensatz zu "vom Unsinn erschlagen werden"?
--> Gedankenstellung: Was klassifiziert "Unsinn" und was macht etwas "ästhetisch" im Bereich des Self Publishing? Wer entscheidet das, ist das überhaupt <i>zu</i> entscheiden? Ist das Kunst und wenn ja, welche Möglichkeiten bieten sich für Künstler, in diesem Bereich aktiv zu werden (Beispiele)? 
+<p>Erste Fragestellung: Was ist mit ästhetischem Erlebnis gemeint bzw. Ästhetik im Gegensatz zu "vom Unsinn erschlagen werden"?</p>
+<p><i>Gedanken dazu:</i>Was klassifiziert "Unsinn" und was macht etwas "ästhetisch" im Bereich des Self Publishing? Wer entscheidet das, ist das überhaupt <i>zu</i> entscheiden? Ist das Kunst und wenn ja, welche Möglichkeiten bieten sich für Künstler, in diesem Bereich aktiv zu werden (Beispiele)? </p>
