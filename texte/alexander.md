@@ -4,7 +4,7 @@
 
 ## Braucht Postdigitale Literatur ein digitales Medium?
 (Alte Frage: Wie wird das Verlagsunabhängige Publizieren von postdigitaler Literatur ermöglicht?)
-
+</br>
 
 Begriffserklärung -> postdigital -> Florian Cramer -> analoge Endprodukt als Ergebnis digitaler Herstellungstechnik (Zustand, in dem der durch digitale Informationstechnologien herbeigeführte Buch bereits in der Vergangenheit liegt)
 (Kurz noch zu Heute- > Lulu & Blurb?)
