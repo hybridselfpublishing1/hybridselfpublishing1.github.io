@@ -1,6 +1,7 @@
 
 # Titel
 *Kim Farkasch*
+(aktuell 434 Wörter)
 
 Open Source ist das Herzstück des Internets und des digitalen Schaffens.  
 Dabei steht es als starker Gegensatz zu unseren kapitalistisch geprägten Weltvorstellungen. Open Source beinhaltet in seiner Grunddefinition die Freiheit ein Programm: 1. für jeden Zweck einsetzen zu dürfen; 2. untersuchen zu dürfen, wie es funktioniert und es nach eigenen Bedürfnissen anzupassen; 3. zu vervielfältigen; 4. zu verbessern und diese optimierungen der Allgemeinheit zugänglich zu machen. Beispiele hierfür sind Linux (Betriebssystem), OpenOffice (Office-Suite), GIMP (Bildbearbeitung), Blender (3D-Animation), Drupal (Content Management System) oder Android (Smartphone-Betriebssystem). Dabei schneint die Idee, das eigene Wissen offen und transparent für andere zugänglich zu machen, zumindest in unserem Alltagsleben ein eher fremdes Konzept zu sein. 
