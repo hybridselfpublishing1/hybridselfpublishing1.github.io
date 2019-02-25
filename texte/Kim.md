@@ -10,7 +10,12 @@ Dabei steht es als starker Gegensatz zu unseren kapitalistisch geprägten Weltvo
  
  # Quellen
  
+ https://www.sueddeutsche.de/karriere/wissensmanagement-kann-man-wissen-kaufen-1.502411
+ 
  Eva Weinmayr: Library Underground- A reading list for a comming community
+ 
+ 
+ # Notizen
  
   * Libraries beginning of "open source" (169)
   
