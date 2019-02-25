@@ -2,17 +2,9 @@
 # Titel
 *Kim Farkasch*
 
-
-
-
-# Idee1: Ownership zu Usership
-
-* Definition von Stehen, Phänomene in denen "gestohlen" wurde (Zines, Uni-self publishing movement, etc)
-* Beispiel von Autoren die den Open Source Charakter vor ihrer Zeit propagierten?
-* Open Source Debatte heute in der Zeit vom Internet:
-    * Wie positionieren sich pro und contra
- * Bestehendes adaptieren und weiterentwickeln.
- * In dem Zusammenhang Teil der kreativen Arbeit und sogar notwendig
+Das horten von Wissen, ist immer noch ein gewohntes Verhalten in unserer Gesellschaft obwohl es uns eher behindert als bereichert.
+'Knowledge Sharing ist ein unnatürliches Verhalten' und bezogen auf unser Arbeitsleben lassen sich klare Gründe dagegen finden. Nicht nur wird Wissen als Vorteil gegenüber anderen Kollegen Verstanden, es kann auch als Trumpfkarte oder Machtmonopol in hierarchischen Strukturen utilisiert werden. Somit gilt es als nicht lohnenswert, diesen Vorteil ohne eine Form einer Vergütung, einfach aufzugeben. Dabei gilt Wissen in unserem Zeitverständnis als relativ frei zugänglich. Nichtsdestoweniger weil man mit dem eigenen internetfähigen Smartphone und plattformen wie Google, Youtube und co. gefühlt alles mögliche an Informationen kostenlos abrufen kann. Neben Videos und Musik wird nun auch das geschriebene Wort im Internet publiziert. Wurde es vor wenigen Jahren noch im Angesicht der wachsenden Digitalisierung zum Tode verurteilt, so hat es sich nun durch die Geburt von E-Readern, Digital Publishing und Print on Demand zum Zwitterwesen zwischen digital und analog gewandelt.  Doch damit ergeben sich neue Fragen im Bezug auf Eigentum (ownership) und Benutzern (usership). Gerade dann wenn die Grenzen der legalität verwischen oder bewusst außer Kraft gehoben werden. Früher musste man Texte mit Schreibmaschinen selber abtippen, um sie im Rahmen politischer und interlektueller Revolte zu vervielfältigen und selbst zu publizieren (so wie die Studenten in Osteuropa der 1960 Jahre). So wurden auch fremdes Text- und Bildmaterial in so genannten Zines und Pamphlets underground publiziert. Handlungen wie diese werden im Historischen Kontext vielleicht als wichtig und berechtigt angesehen. Jedoch kann man nicht leugnen dass es sich hierbei um Piraterie handelt:  „(...)piracy is always associated with the re-appropriation of somebody else's property against the law. It challenges the idea of knowledge as property“. Dass das Internet neue Möglichkeiten zur Piraterie geboten hat, ist im heutigen Zeitverständnis nichts neues. So ist es nicht verwunderlich, dass auch das Medium Buch der Piraterie zum Opfer fällt.
+2006 hackte das Collektiv Übermorgen? zusammen mit Alessandro Noir und Paolo Cirio Amazons „Blick ins Buch“ Funktion, sodass sie das gesamte Buch anzeigte anstelle der ausgewählten öffentlich einsehbaren Seiten.
  
  
  # Quellen
