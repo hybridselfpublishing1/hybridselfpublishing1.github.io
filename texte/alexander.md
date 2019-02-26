@@ -5,9 +5,8 @@
 ## Braucht Postdigitale Literatur ein digitales Medium?
 <br>
 
-Begriffserklärung -> postdigital -> Florian Cramer -> analoge Endprodukt als Ergebnis digitaler Herstellungstechnik (Zustand, in dem der durch digitale Informationstechnologien herbeigeführte Buch bereits in der Vergangenheit liegt)
-(Kurz noch zu Heute- > Lulu & Blurb?)
-</br></br>
+Begriffserklärung -> postdigital 
+<br>
 Begriffserklärung -> postdigital / Was ist postdigitale Literatur -> Alessandro Ludovico
 "Im Gegenteil sei das Verhältnis von Digital- und Analogtechnologien nicht antagonistisch zu denken, sondern komplementär." Er nannte diese Verschränkung "postdigital"
 </br></br>
@@ -33,10 +32,15 @@ Lulu oder Blurb (www.gauss-pdf.com; www.trollthread.tumblr.com; www.0x0a.li; www
 
 #### Quellen:
 Habe ich da:
+
 Hannes Bajohr Infradünne Plattformen
+
 Hannes Bajohr Code und Konzept -> Florian Cramer
+
 Hannes Bajohr Schreibenlassen
+
 Alessandro Ludovico Postdigital Print The Mutation of Publishing since 1894
+
 Postdigital Aesthetics -> Florian Cramer
 
 
