@@ -5,10 +5,14 @@
 ## Braucht Postdigitale Literatur ein digitales Medium?
 <br>
 
-Was ist postdigital? Diese Frage beantwortet Florian Cramer in Postdigital Aesthetics mit dem Beispiel einer Schreibmaschine. Die Verwendung einer mechanischen Schreibmaschine anstelle eines mobilen Computergeräts im Jahr 2013 ist kein Zeichen von Altertum. Vielmehr ist es eine bewusste Entscheidung, elektronisch zu verzichten. (vgl) 
+Was ist postdigital? Diese Frage beantwortet Florian Cramer in Postdigital Aesthetics mit dem Beispiel einer Schreibmaschine. Die Verwendung einer mechanischen Schreibmaschine anstelle eines mobilen Computergeräts im Jahr 2013 ist kein Zeichen von Altertum. Vielmehr ist es eine bewusste Entscheidung, elektronisch zu verzichten. (vgl S.12) 
 `(Original: Yet, in a colloquial sense, the typewriter is definitely an ‘analogue’ machine, as it does not contain any computational electronics.
 In 2013, using a mechanical typewriter rather than a mobile comput- ing device is, as the imageboard meme suggests, no longer a sign of being old-fashioned. It is, instead, a deliberate choice of renouncing electronic)`
-Digital = steriler High-tech? Das „Digital“ in „Postdigital“ sollte auch nicht in einem technisch-wissenschaftlichen oder medientheoretischen Sinn verstanden werden, sondern vielmehr in der Art und Weise, wie der Begriff in der Popkultur weit verbreitet ist (vgl Florian Cramer in Postdigital Aesthetics)
+Digital = steriler High-tech? Das „Digital“ in „Postdigital“ sollte auch nicht in einem technisch-wissenschaftlichen oder medientheoretischen Sinn verstanden werden, sondern vielmehr in der Art und Weise, wie der Begriff in der Popkultur weit verbreitet ist (vgl Florian Cramer in Postdigital Aesthetics S.15)
+
+Als erstes fällt uns auf, dass der Begriff „digital“ noch im Jahr 2013 visuell mit der Farbe Blau zusammenhängt. Blau ist buchstäblich die kühlste Farbe im Farbspektrum (mit einer Temperatur von 15.000 bis 27.000 Kelvin), mit weiteren Vorschlägen für kulturelle Kühle und Reinheit. Die einfachste Definition von „Postdigital“ beschreibt eine Medienästhetik, die einer solchen digitalen High-Tech- und High-Fidelity-Reinheit entgegenwirkt. (vgl Florian Cramer in Postdigital Aesthetics s.16)
+
+The death of paper (which never happened). (vgl Alessandro Ludovico Postdigital Print The Mutation of Publishing since 1894)
 
 Hannes Bajohr erwähnt in seinem Werk *Infradünne Plattformen* den Roman *Tristano bei Feltrinelli* von Nanni Balestrini aus dem Jahre 1966, der nur aus einem Hundertbillionstel des Buches bestand, das Balestrini im Sinn hatte. Dieser Tristano ist als Baukaten gedacht und damit mit dem traditionellen Flachdruck finanziell nicht umzusetzen, da dieser sich erst ab einer Auflagenhöhe deutlich über eins pro Vorlage rechnet. (vgl)
 
