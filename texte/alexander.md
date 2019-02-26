@@ -5,6 +5,8 @@
 ## Braucht Postdigitale Literatur ein digitales Medium?
 <br>
 
+Hannes Bajohr erwähnt in seinem Werk *Infradünne Plattformen* den Roman *Tristano bei Feltrinelli* von Nanni Balestrini aus dem Jahre 1966
+
 Begriffserklärung -> postdigital 
 <br>
 Begriffserklärung -> postdigital / Was ist postdigitale Literatur -> Alessandro Ludovico
@@ -54,8 +56,3 @@ Will ich nutzen:
 postdigitales Produktions- und Darstellungsprinzip ist absolut aktuell 
 -> prinzip nach -> Nanni Balestrini, Rom: Derive Approdi 2007 (Berlin: Suhrkamp 2009; London: Verso 2014)
 
-Andreas Sudmann -> Szenarien des Postdigitalen
-
-Hannes Bajohr -> Das Reskilling der Literatur
-
-Kenef Goldsmith -> (digitaler prozess)
