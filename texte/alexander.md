@@ -43,6 +43,8 @@ Alessandro Ludovico Postdigital Print The Mutation of Publishing since 1894
 
 Postdigital Aesthetics -> Florian Cramer
 
+Andreas Sudmann Szenarien des Postdigitalen
+
 
 
 
