@@ -5,7 +5,9 @@
 ## Braucht Postdigitale Literatur ein digitales Medium?
 <br>
 
-Hannes Bajohr erwähnt in seinem Werk *Infradünne Plattformen* den Roman *Tristano bei Feltrinelli* von Nanni Balestrini aus dem Jahre 1966
+Hannes Bajohr erwähnt in seinem Werk *Infradünne Plattformen* den Roman *Tristano bei Feltrinelli* von Nanni Balestrini aus dem Jahre 1966, der nur aus einem Hundertbillionstel des Buches bestand, das Balestrini im Sinn hatte. Dieser Tristano ist als Baukaten gedacht und damit mit dem traditionellen Flachdruck finanziell nicht umzusetzen, da dieser sich erst ab einer Auflagenhöhe deutlich über eins pro Vorlage rechnet. (vgl)
+
+
 
 Begriffserklärung -> postdigital 
 <br>
