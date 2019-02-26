@@ -3,8 +3,7 @@
 *Alexander Filatchev*
 
 ## Braucht Postdigitale Literatur ein digitales Medium?
-(Alte Frage: Wie wird das Verlagsunabhängige Publizieren von postdigitaler Literatur ermöglicht?)
-</br></br>
+<br>
 
 Begriffserklärung -> postdigital -> Florian Cramer -> analoge Endprodukt als Ergebnis digitaler Herstellungstechnik (Zustand, in dem der durch digitale Informationstechnologien herbeigeführte Buch bereits in der Vergangenheit liegt)
 (Kurz noch zu Heute- > Lulu & Blurb?)
@@ -33,7 +32,18 @@ Lulu oder Blurb (www.gauss-pdf.com; www.trollthread.tumblr.com; www.0x0a.li; www
 ### Notizen:
 
 #### Quellen:
--> Alessandro Ludovico, Post-digital Print. The Mutation of Publishing since 1894. Eindhoven: Onomatopee 2012.
+Habe ich da:
+Hannes Bajohr Infradünne Plattformen
+Hannes Bajohr Code und Konzept -> Florian Cramer
+Hannes Bajohr Schreibenlassen
+Alessandro Ludovico Postdigital Print The Mutation of Publishing since 1894
+Postdigital Aesthetics -> Florian Cramer
+
+
+
+
+
+Will ich nutzen:
 
 postdigitales Produktions- und Darstellungsprinzip ist absolut aktuell 
 -> prinzip nach -> Nanni Balestrini, Rom: Derive Approdi 2007 (Berlin: Suhrkamp 2009; London: Verso 2014)
@@ -42,11 +52,4 @@ Andreas Sudmann -> Szenarien des Postdigitalen
 
 Hannes Bajohr -> Das Reskilling der Literatur
 
-
-
 Kenef Goldsmith -> (digitaler prozess)
-
-Florian Cramer, Postdigitales Schreiben. In: Hannes Bajohr (Hrsg.), Code und Konzept. Literatur und das Digitale. Berlin: Frohmann 2015. Zur Vagheit der Differenz ...
-
-
-Fokus auf Medienumbrüche u.a. mit dem Datum um 2000 eine historische Phase unter- sucht, in der die Transformation von analogen zu digitalen Medien zuneh- mend die Wahrnehmung der Öffentlichkeit bestimmte (vgl. Schnell 2006).
