@@ -9,6 +9,16 @@ Dabei steht es im starker Gegensatz zu unseren kapitalistisch geprägten Weltvor
 
 Open Source spricht sich klar gegen die Piraterie aus und unterstützt solche Maßnahmen in keinster Weise. Die Bewegung möchte eher als Gegenpol verstanden werden, da sie alternativen für kostenpflichtige und urheberrechtlich Geschützte Inhalte bieten möchte. Jedoch kann damit Piraterie nicht verhindert werden, da zum Beispiel jemand lieber ein Programm wie Photoshop "crackt" als die ungewohnte und vielleicht eingeschränkte Usability von Gimp zu tolerieren. Open Source ist nun mal kein Qualitätsbeweis wobei man durchaus sagen kann dass solche Wertigkeiten subjektiv vom User abhängig sind. Trotzdem könnte man behaupten dass Open Source Programme nicht die selbe Monopolstellung haben wie ihre kostenpflichtigen Mitspieler. Aber zurück zum Eigentlichen Thema: der Literatur.
  
+ Themendefinition:
+ Cluster mit Zitaten 
+ Begriffserklärung 
+ was ist Autorenschaft
+ wiederspruch erklären zwischen Autorenschaft und Zugänglichkeit /Verbreitung.
+ autorenschaft Literatur: Sachbuch informationen, Romane , 
+ open source vs open acces was bedeutet das 
+ internet fördert zugänglichkeit -> über autorenschaft nachdenken
+
+ 
  
  # Quellen
 
