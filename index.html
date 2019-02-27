@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Using Configuration</title>
+  <link rel="stylesheet" type="text/css" href="shared/style.css" />
+    <script type="text/javascript" src="shared/script.js"></script>
+    <script type="text/javascript" src="shared/jquery-1.10.0.min.js"></script>
+    <script type="text/javascript" src="shared/typed.js"></script>
+    <script type="text/javascript" src="shared/scroll.js"></script>
+    
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+
+</head>
+
+<body>
+    <div id="bindery-ausblenden">
+<!-- Bindery Funktion Anfang -------------------------------------------------------------- -->
+  <script type="text/javascript" src='https://unpkg.com/bindery'></script>
+  <script type="text/javascript" src='https://unpkg.com/bindery-controls'></script>
+  <script>
+    Bindery.makeBook({
+      content: {
+        url: 'index.html',
+        selector: ".content",
+      },
+      pageSetup: {
+      size: { width: '148mm', height: '210mm' },
+      margin: { top: '10mm', inner: '20mm', outer: '15mm', bottom: '15mm' },
+  },
+      rules: [
+        Bindery.PageBreak({ selector: 'h1, h2, h3', position: 'before', continue: 'right' }),
+        Bindery.Footnote({ selector: 'p' }),
+        Bindery.Footnote({
+          selector: 'p > a',
+          render: (elmt, number) => `<sup>${number}</sup> Link to <u>${elmt.getAttribute('href')}</u>`,
+        }),
+        Bindery.FullBleedPage({ selector: '.med-figure' }),
+        Bindery.FullBleedSpread({ selector: '.big-figure' }),
+        Bindery.RunningHeader({
+          render: (page) => {
+            if (page.isLeft) return `${page.number} · ${page.heading.h1 || ''} `;
+            else if (page.isRight) return `${page.heading.h2 || ''} · ${page.number}`;
+          },
+        }),
+        Bindery.PageReference({
+          selector: ".toc a",
+          replace: (element, number) => {
+            let row = document.createElement('div');
+            row.innerHTML = `${element.textContent}`;
+            row.innerHTML += `<span style='float: right;'>${number}</span>`;
+            return row;
+          }
+        }),
+      ],
+    });
+  </script>
+<!-- Bindery Funktion Ende ------------------------------------------------------------ -->
+    </div>
+    
+<!-- Startseite Anfang ------------------------------------------------------------ -->
+<div id="wrapper" class="zindex">
+    
+    <div id="logo" class="zindex">
+         <img src="shared/logo.gif" style="z-index='100'">
+    </div>
+    
+   
+    
+    <div id="starttext" class="type-text zindex"><p id="type-text" class="web-text">Sei ein Teil eines großen Autoren-Teams und <span class="typed-animation" id="typed"></span> <br><span style="color: lightgrey;">d</span>eine Version der Meernixe noch heute</p></div>  
+</div>
+    <script>
+        var typed = new Typed('#typed', {
+        strings: ['schreibe', 'editiere', 'publiziere', 'drucke', 'veröffentliche'],
+        typeSpeed: 80,
+        backDelay: 750,
+        loop: true
+        });
+    </script>
+<input type="text" id="myInput" class="zindex" oninput="myFunction()" oninput="myFunction2()" placeholder="Dein Name...|" style="font-family: 'Jost';">
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myInput").value;
+          document.getElementById("demo").innerHTML = x;
+        }
+    </script>
+    <div id="weiterbutton1" class="zindex addBtn web-text" onclick="newElement()">
+    <img src="shared/pfeil.svg" style="height: 40px; width:40px; margin:5px 0px 0px 5px;">
+    </div>
+            <script> $( "#weiterbutton1" ).click(function() { 'use strict';
+            document.getElementById('wrapper').style.display ='none';
+            document.getElementById('logo').style.display ='none';
+            document.getElementById('starttext').style.display ='none';
+            document.getElementById('myInput').style.display ='none';
+            document.getElementById('weiterbutton1').style.display ='none';
+            document.getElementById('autorenzahl').style.display ='none';
+            });</script>
+
+<!-- Startseite Ende ------------------------------------------------------------ -->
+    
+
+    
+    
+    
+<!-- Texteditor Anfang ------------------------------------------------------------ -->
+    
+<div id="wrapper2" class="zindex2">
+    <div id="wrapper3"></div>
+    <div id="logo2" class="zindex2">
+         <img src="shared/logo-klein.gif" style="z-index='100'">
+    </div>
+    <div class="web-text" id="begruessung">Hallo <span id="demo" style="color: black;"></span>, schreibe deine eigene version der Geschichte!</div>
+    
+        <p id="update"> </p>
+    <ul id="kapitel" class="web-text zindex2">
+        <li onclick="saveEdits()">speichern</li>
+        <li id="drucken">Druckansicht</li>
+    </ul>
+
+   <script>
+        function saveEdits() {
+        document.getElementById("update").innerHTML="gespeichert!"; }
+    </script>
+    
+    
+     <script> $( "#drucken" ).click(function() { 'use strict';
+            document.getElementById('wrapper2').style.display ='none';
+            document.getElementById('logo2').style.display ='none';
+            document.getElementById('begruessung').style.display ='none';
+            document.getElementById('demo').style.display ='none';
+            document.getElementById('kapitel').style.display ='none';
+            document.getElementById('rahmen').style.display ='none';
+                                                
+            document.getElementById('myUL').style.display ='block';
+            });</script>
+    
+    
+    
+    
+    
+    
+        
+    <div id="rahmen">    
+    <section class="content">
+         <!-- Book Content -->
+        
+        <h1>Die Meernixe</h1>
+    
+        <ul id="myUL" class="autoren">
+            <h4>Autoren:</h4>
+            <li>Hans Cristian Anderson</li>
+            <li>Laura Müller</li>
+            <li>Natali Bauer</li>
+            <li>Josph Haan</li>
+            <li>Peter Wuss</li>
+        </ul>
+        
+        <h3 contentEditable="true" id="kapitel-1">Kapitel 1</h3>
+        <p contentEditable="true" class="p-web">Weit draußen im Meere ist das Wasser so blau wie die Blüten der schönsten Kornblume und so klar wie das reinste Glas; aber es ist dort außerordentlich tief, tiefer, als irgend ein Ankertau reicht, und es müßten viele Kirchtürme aufeinander gestellt werden, um vom Grunde über das Wasser empor zu reichen. Dort unten wohnt das Meervolk.
+Nun muß man aber nicht etwa denken, es sei dort unten nur der nackte weiße Sandboden, durchaus nicht. Da wachsen die merkwürdigsten Bäume und Pflanzen, die so geschmeidige Stiele und Blätter haben, daß sie sich bei der geringsten Bewegung des Wassers hin und her wiegen. Die kleinen und großen Fische schlüpfen zwischen den Zweigen hindurch, wie hier oben die Vögel durch die Bäume. An der tiefsten Stelle liegt das Schloß des Meerkönigs, die Mauern sind von Korallen und die hohen Spitzbogenfenster von klarsten Bernstein; das Dach aber ist aus Muschelschalen gebildet, die sich je nach der Strömung des Wassers öffnen und schließen. Das sieht wunderbar schön aus; denn in all den Muscheln liegen glänzende Perlen, von denen eine einzige schon ein kostbarer Schmuck in der Krone einer Königin wäre.
+Der Meerkönig dort unten war schon seit vielen Jahren Witwer, und seine alte Mutter führte ihm daher die Wirtschaft. Sie war eine kluge Frau, aber sehr stolz auf ihren Adel. Deshalb trug sie auch zwölf Austern auf ihrem Schwanze, während die andern Adeligen nur sechs tragen durften. Sonst verdiente sie alles Lob, besonders weil sie ihre Enkelinnen, die kleinen Meerprinzessinnen, herzlich lieb hatte. Es waren sechs reizende Kinder, aber die jüngste der Prinzessinnen war doch die schönste von allen. Ihre Haut war so zart und fein wie ein Rosenblatt, ihre Augen so blau wie der tiefste See; aber wie alle die andern hatte auch sie keine Füße, sondern der Körper endete in einem Fischschwanz.
+Den ganzen Tag durften die Kinder unten im Schloß in den großen Sälen, wo lebendige Blumen aus den Wänden hervorwuchsen, spielen. Die großen Bernsteinfenster wurden aufgemacht, und dann schwammen die Fische zu ihnen hinein, gerade wie bei uns die Schwalben hereinfliegen, wenn wir die Fenster aufmachen. Doch die Fische schwammen zu den kleinen Prinzessinnen hin, fraßen ihnen aus den Händen und ließen sich streicheln.
+Vor dem Schlosse war ein großer Garten mit feuerroten und dunkelblauen Bäumen; die Früchte strahlten wie Gold und die Blumen wie brennendes Feuer, während sie die Stengel und Blätter unaufhörlich bewegten. Die Erde selbst war der feinste Sand, aber blau wie die Flamme des brennenden Schwefels. Über dem Ganzen lag ein merkwürdig blauer Schein; man hätte eher glauben können, daß man hoch droben in der Luft stehe und über und unter sich nur Himmel habe, als daß man auf dem Grunde des Meeres sei. Bei Windstille konnte man die Sonne erblicken, aber sie erschien wie eine Purpurblume, aus deren Kelch alles Licht strömte.</p>
+        
+        <h3 contentEditable="true" id="kapitel-2">Kapitel 2</h3>
+        <p contentEditable="true" class="p-web">Jede der kleinen Prinzessinnen hatte ein Gärtchen, wo sie nach Belieben graben und pflanzen konnten. Die eine gab ihrem Blumenbeet die Gestalt eines Walfischs; einer andern gefiel es besser, daß das ihrige einem Meerweibchen gleiche; die jüngste jedoch machte es rund wie die Sonne und pflanzte nur Blumen, die rot wie diese leuchteten. Sie war überhaupt ein sonderbares Kind, still und nachdenklich, und wenn die andern Schwestern die merkwürdigen Sachen, die von gestrandeten Schiffen in die Tiefe hinabsanken, aufstellten, wollte sie außer den rosenroten Blumen, die der Sonne dort oben glichen, nur eine hübsche Marmorstatue haben, die einmal auf den Meeresgrund gesunken war und einen wunderschönen Knaben, aus schneeweißem Stein gehauen, vorstellte.
+Die kleine Prinzessin pflanzte nun neben die Statue eine rosenrote Trauerweide; die wuchs herrlich empor und bildete mit ihren frischen Zweigen, die hin- und herschwankten und bis auf den blauen Sandboden herunterhingen, eine Laube, unter der der Schatten ganz veilchenblau erschien. Die größte Freude aber war für sie, von der Menschenwelt da droben erzählen zu hören. Die Großmutter mußte alles, was sie von Schiffen und Städten, Menschen und Tieren wußte, immer und immer wieder erzählen. Ganz besonders merkwürdig und schön aber deuchte es sie, daß oben auf der Erde die Blumen dufteten, denn das war bei den ihrigen nicht der Fall, und daß die Wälder dort grün waren, und daß die Fische, die man dort auf den Bäumen sah, laut und herrlich singen konnten, daß es eine wahre Lust war. Die kleinen Vögel nannte die Großmutter nämlich Fische; sonst hätte die Enkelin sie nicht verstanden, da sie noch keinen Vogel gesehen hatte.
+»Wenn ihr fünfzehn Jahre alt seid«, sagte die Großmutter, »dann dürft ihr aus dem Meere emporsteigen, im Mondschein auf der Klippe sitzen und die großen Schiffe vorbeisegeln sehen, und dann werdet ihr auch Wälder und Städte mit euern eigenen Augen erblicken.«
+Im nächsten Jahr wurde eine der Schwestern fünfzehn Jahre alt; aber von den andern war die eine immer ein Jahr jünger als die andere, und die jüngste mußte also noch volle fünf Jahre warten, ehe sie von dem Grunde des Meeres aufsteigen und sehen durfte, wie es bei uns hier oben aussieht. Aber sie versprachen einander, sich ganz genau zu erzählen, was sie erblickten, und was ihnen am ersten Tag am besten gefallen habe. Denn die Großmutter erzählte ihnen lange nicht genug; es gab noch so vieles, worüber sie gerne Auskunft gehabt hätten.
+Keine aber sehnte sich mehr nach diesen Nachrichten als die jüngste der Schwestern, gerade sie, die noch am längsten zu warten hatte und die stets so still und gedankenvoll war. Manche Nacht stand sie am offenen Fenster und sah durch das dunkelblaue Wasser, wo die Fische mit ihren Schwänzen plätscherten, empor. Mond und Sterne konnte sie sehen. Diese hatten freilich nur einen ganz bleichen Schimmer; aber durch das Wasser sahen sie größer aus als vor unsern Augen. Zog dann etwas, einer schwarzen Wolke gleich, unter ihr hin, so wußte sie, daß es entweder ein Walfisch war, der über ihr hinschwamm, oder ein Schiff mit vielen Menschen darauf. Ach, diese dachten sicher nicht daran, daß ein schönes, kleines Meermädchen unten stehe und ihre weißen Hände zum Kiel des Schiffes emporstrecke.
+Nun war die älteste Prinzessin fünfzehn Jahre alt und erhielt die Erlaubnis, über die Meeresfläche emporzusteigen.
+Als sie zurückkam, hatte sie hunderterlei zu erzählen, aber das Schönste, sagte sie, das sei doch, im Mondschein auf einer Sandbank in der ruhigen See zu liegen und die dicht am Ufer gelegene große Stadt zu betrachten, wo die Lichter gleich vielen hundert Sternen blinkten, dann die Musik, den Lärm und das Geräusch von Wagen und Menschen zu hören, die vielen Kirchtürme zu sehen und das Läuten der Glocken zu vernehmen.
+O, wie andächtig lauschte die jüngste Schwester auf diese Worte! Und wenn sie des Abends wieder am offenen Fenster stand und durch das dunkelblaue Wasser emporblickte, flohen ihre Gedanken immer nach der großen Stadt mit dem Lärm und dem Geräusch, und dann meinte sie, das Läuten der Kirchenglocken bis zu sich herunter hören zu können.
+</p>
+        
+    <h3 contentEditable="true" id="kapitel-3">Kapitel 3</h3>
+        <p contentEditable="true" class="p-web">Im folgenden Jahr erhielt die zweite Schwester die Erlaubnis, aus dem Wasser emporzusteigen und nach Belieben herumzuschwimmen.
+Gerade bei Sonnenuntergang tauchte sie auf, und dieser Anblick war ihrer Meinung nach das Schönste, das sie sah. Sie sagte, der ganze Himmel habe wie lauter Gold ausgesehen, und die Schönheit der Wolken könne sie auch nicht annähernd beschreiben. Rot und veilchenblau seien sie über ihr dahingezogen, aber weit schneller als diese sei wie ein langer weißer Schleier eine Schar wilder Schwäne über das Wasser, der untergehenden Sonne entgegen, dahingeflogen. Da sei sie auch in dieser Richtung fortgeschwommen, aber die Sonne sei versunken und der Schein auf der Meeresfläche und in den Wolken erloschen.
+Im nächsten Jahr durfte die dritte Schwester hinaufsteigen. Sie war die beherzteste von allen und schwamm deshalb einen breiten Fluß, der in das Meer mündete, aufwärts. Da sah sie herrlich grüne, mit Reben bepflanzte Hügel; Schlösser und Burgen schimmerten aus den Wäldern hervor, sie hörte die Vögel singen, und die Sonne schien so warm, daß sie oft unter das Wasser tauchen mußte, um ihr heißes Antlitz zu kühlen. In einer stillen Bucht traf sie eine Schar kleiner Menschenkinder; diese waren ganz nackt und plätscherten lustig im Wasser. Das Meermädchen hätte gerne mit ihnen gespielt, aber die Kinder flohen erschrocken davon, und dann kam ein kleines schwarzes Tier, ein Hund – aber sie hatte noch nie einen Hund gesehen – der bellte sie so schrecklich an, daß sie Angst bekam und schnell in die offene See zurückschwamm. Aber niemals konnte die Prinzessin die prächtigen Wälder, die grünen Hügel und die niedlichen Kinder, die im Wasser schwimmen konnten, obgleich sie keinen Fischschwanz hatten, vergessen.
+Die vierte Schwester war nicht so keck, sie blieb draußen im wogenden Meere und meinte, dort sei es doch am allerschönsten; von dort aus könne man viele Meilen weit umhersehen und der Himmel stehe wie eine Glasglocke darüber. Sie hatte auch Schiffe gesehen, aber nur aus weiter Ferne, und meinte, sie sähen wie Möwen aus. Die possierlichen Delphine hatten Purzelbäume geschlagen, und die großen Walfische aus ihren Nasenlöchern Wasser emporgespritzt, so daß es wie Hunderte von Springbrunnen ringsumher ausgesehen habe.
+Nun kam die Reihe an die fünfte Schwester. Ihr Geburtstag war im Winter, und deshalb sah sie, was die andern das erste Mal nicht gesehen hatten. Das Meer sah ganz grün aus, und ringsumher schwammen große Eisberge, von denen jeder, ihrer Erzählung nach, wie eine Perle geglänzt hatte, aber weit größer gewesen war als der schönste von den Menschen erbaute Kirchturm. Die Eisberge hatten die sonderbarsten Gestalten und glänzten wie Diamanten. Die Prinzessin hatte sich auf einen der größten gesetzt. Da fuhren die erschrockenen Fischer weit um den Eisberg herum, während sie da oben saß und den Wind mit ihren langen Haaren spielen ließ. Aber gegen Abend überzog sich der Himmel mit dichten Wolken; es blitzte und donnerte, während die schwarzen Wogen die großen Eisblöcke hoch emporhoben und sie in den grellen Blitzen hell erglänzen ließen. Auf allen Schiffen reffte man die Segel; überall herrschte Angst und Grauen. Das Meermädchen aber saß ruhig auf ihrem schwimmenden Eisberg und sah die Blitze im Zickzack in das schäumende Meer schießen.
+Sobald eine der Schwestern über das Meer emporkam, war sie immer von all dem Schönen und Neuen, das sie gesehen hatten, ganz entzückt. Aber als sie nun als erwachsene Mädchen hinaufsteigen konnten, wann es ihnen beliebte, wurde es ihnen bald gleichgültig. Sie sehnten sich stets wieder nach der Heimat zurück, und nach Verfluß eines Monats sagten sie, es sei unten im Meere doch am allerschönsten, da fühle man sich am behaglichsten.
+Oftmals schlangen die fünf Schwestern die Arme ineinander und stiegen in einer Reihe zur Oberfläche des Wassers hinauf. Sie hatten herrliche Stimmen, schöner als irgend ein Menschenkind; und wenn dann ein Sturm im Anzug war, so daß sie fürchteten, es könnten Schiffe untergehen, schwammen sie vor diesen her und sangen mit ihren entzückenden Stimmen, wie schön es auf dem Grunde des Meeres sei und baten die Seeleute, sich doch nicht zu fürchten, dort hinunter zu kommen. Aber die Schiffer konnten die Worte nicht verstehen und meinten, es sei das Toben des Sturmes. Sie bekamen auch die Herrlichkeit dort unten gar nicht zu sehen; denn wenn das Schiff scheiterte, ertranken die Menschen und kamen nur als Leichen zum Schlosse des Meerkönigs.
+Wenn die Schwestern so des Abends Arm in Arm durch das Wasser hinaufstiegen, dann blieb die kleinste Schwester allein zurück und schaute ihnen nach; und dann war es ihr, als ob sie weinen müßte. Aber ein Meermädchen hat ja keine Tränen, und darum leidet es noch viel mehr. »Ach, wäre ich doch schon fünfzehn Jahre alt!« seufzte die Prinzessin. »Ich weiß, daß ich die Welt dort oben und die Menschen, die darauf wohnen, recht, recht lieb haben werde.«
+Endlich war sie denn auch fünfzehn Jahre alt.
+»So, nun bist du erwachsen«, sagte die Großmutter. »Komm, ich will dich schmücken wie deine andern Schwestern.« Sie setzte ihr einen Kranz von Wasserlilien aufs Haar, von denen jedes Blumenblatt die Hälfte einer Perle war, und dann befahl die Großmutter acht Austern, sich im Schweife der Prinzessin festzuklemmen, um ihren hohen Rang anzudeuten.
+»Das tut mir weh!« sagte die Meernixe.
+»Ja, Eitelkeit muß leiden«, sagte die Großmutter. Ach, wie gerne hätte die Kleine auf all diese Pracht verzichtet und den schweren Kranz abgelegt! Die roten Blumen aus ihrem Garten standen ihr gewiß viel besser. Aber sie mußte sich eben den Wünschen der Großmutter fügen.
+»Lebet wohl!« sprach sie und stieg dann klar und leicht wie eine Blase aus dem Wasser auf.
+Die Sonne war eben untergegangen, als sie den Kopf über die Meeresfläche erhob. Aber alle Wolken schimmerten noch goldig rot, und inmitten der blaßroten Luft leuchtete der Abendstern hell und schön; die Luft war mild und frisch und das Meer spiegelglatt. Da lag ein großer Dreimaster. Nur ein einziges Segel war aufgezogen; denn es regte sich kein Lüftchen, und im Tauwerk und auf den Rahen saßen die Matrosen. Musik und Gesang ertönte, und als es dunkelte, wurden Hunderte von Laternen angezündet, so daß es aussah, als ob die Flaggen aller Nationen in der Luft wehten. Die Nixe schwamm dicht bis an das Kajütenfenster, und jedesmal, wenn das Wasser sie emporhob, konnte sie durch die spiegelklaren Scheiben hineinblicken. Viele geputzte Menschen waren drinnen, aber der schönste von allen war doch der junge Prinz mit den großen, schwarzen Augen. Er war sicher nicht viel über sechzehn Jahre alt. Es war heute sein Geburtstag, und deshalb wurde das Fest gefeiert. Die Matrosen tanzten auf dem Verdeck, und als der junge Prinz zu ihnen trat, stiegen über hundert Raketen hoch in die Luft empor; sie leuchteten wie der helle Tag, so daß die Meernixe heftig erschrak und rasch unter das Wasser tauchte. Aber bald streckte sie wieder das Köpfchen hervor, und da war es ihr, als ob alle Sterne zu ihr herunterfielen. Noch nie hatte sie solch ein Feuerwerk gesehen. Große Sonnen drehten sich zischend und sprühend im Kreise; prächtige Feuerfische schwangen sich in die blaue Luft, und alles spiegelte sich in der klaren See. Auf dem Schiffe selbst war es so hell, daß man jedes kleine Tau, wieviel mehr also die Menschen, sehen konnte. O wie schön war doch der junge Prinz! Er drückte den Leuten freundlich lächelnd die Hand, während die Musik durch die stille Nacht erklang.
+</p>
+        
+        <h3 contentEditable="true" id="kapitel-4">Kapitel 4</h3>
+        <p contentEditable="true" class="p-web">Es wurde spät; aber die Meerprinzessin konnte ihre Augen nicht von dem Schiffe und von dem schönen Prinzen abwenden. Die bunten Laternen wurden ausgelöscht; es stiegen keine Raketen mehr in die Höhe, und es ertönten auch keine Kanonenschüsse mehr; nur tief unten im Meere wogte und rauschte es dumpf. Die Nixe aber saß auf dem Wasser und schaukelte auf und nieder, daß sie in die Kajüte hineinblicken konnte. Aber nun erhob sich der Wind und das Schiff fuhr schneller dahin; ein Segel nach dem andern blähte sich; die Wogen gingen stärker; schwarze Wolken stiegen auf; es blitzte am Horizont, ja, ein schrecklicher Sturm brach los, und eilig refften die Matrosen die Segel. Das große Schiff schoß in rasender Eile durch die wilde See; die Wogen erhoben sich wie riesengroße, schwarze Berge, die über die Masten hereinzustürzen drohten; aber wie ein Schwan hob und senkte sich das Schiff aus der grollenden, schäumenden Flut. Die Meernixe dünkte es eine recht lustige Fahrt zu sein, den Matrosen aber durchaus nicht. Das Schiff knackte und krachte; die dicken Planken bogen sich bei dem heftigen Wogenprall; der Hauptmast brach mitten durch, als ob er nur ein schwaches Rohr wäre, und das Schiff legte sich auf die Seite, während das Wasser hineindrang. Nun sah die Nixe, daß die Mannschaft in Gefahr war; sie mußte sich selbst auch vor den Balken und Schiffstrümmern, die auf dem Wasser trieben, in acht nehmen. Einen Augenblick war es so finster, daß sie nicht das geringste unterscheiden konnte. Aber wenn es dann blitzte, wurde es wieder so hell, daß sie jeden einzelnen Menschen auf dem Schiffe erkannte; besonders suchte ihr Auge den jungen Prinzen, und als das Schiff barst, sah sie ihn in das tiefe Meer versinken. Zuerst freute sie sich darüber, nun kam er ja zu ihr hinunter! Aber da fiel ihr ein, daß die Menschen im Wasser nicht leben können, und daß er also nur tot zum Schlosse ihres Vaters hinuntergelangen würde. Aber sterben, nein, das durfte er nicht! So schwamm sie zwischen Balken und Planken, die auf der See trieben, umher und vergaß ganz, daß diese sie hätten zerquetschen können. Tief tauchte sie unter das Wasser und stieg wieder hoch zwischen den Wogen empor und erreichte so schließlich den Prinzen, der sich kaum noch auf der stürmischen See halten konnte. Seine Arme und Beine begannen zu ermatten; seine schönen Augen schlossen sich, und er hätte sterben müssen, wenn die Nixe nicht eben herbeigekommen wäre. Sie hielt seinen Kopf über das Wasser empor und ließ sich dann mit ihm aufs Geratewohl von den Wogen forttreiben.
+
+Am nächsten Morgen war der Sturm vorüber, von dem Schiffe aber war keine Spur mehr zu entdecken. Rot und glänzend stieg die Sonne aus dem Wasser empor, und es war, als ob des Prinzen Wangen Leben dadurch erhielten, aber seine Augen blieben geschlossen. Die Meernixe küßte ihn auf seine schöne, hohe Stirne, und es kam ihr vor, als ob er der Marmorstatue in ihrem kleinen Garten gleiche. Sie küßte ihn wieder und wieder und wünschte innig, daß er doch wieder zum Leben erwache. Nun erblickte sie vor sich das Festland: hohe blaue Berge, auf deren Gipfel der weiße Schnee glänzte, als seien es Schwäne, die dort ruhten; unten an der Küste waren herrliche, grüne Wälder, und am Ufer lag eine Kirche oder ein Kloster, das wußte sie nicht recht, aber ein Gebäude war es.
+Zitronen- und Apfelsinenbäume wuchsen im Garten, und vor dem Tore standen hohe Palmbäume. Das Meer bildete hier eine kleine Bucht, wo das Wasser ruhig, aber sehr tief und rings von Klippen umgeben war. Hierher schwamm sie mit dem Prinzen, legte ihn auf den feinen, weißen Sand und war besonders darauf bedacht, daß der Kopf im Sonnenscheine erhöht lag.
+Nun läuteten alle Glocken in dem weißen Gebäude, und viele junge Mädchen kamen in den Garten heraus. Da schwamm die Nixe weiter hinaus hinter einige Felsen, die aus dem Wasser hervorragten, bedeckte ihr Haar und ihre Brust mit weißem Meeresschaum, so daß niemand ihr süßes Gesichtchen sehen konnte, und dann paßte sie auf, wer wohl den armen Prinzen finden würde.</p>
+        
+        <h3 contentEditable="true" id="kapitel-5">Kapitel 5</h3>
+        <p contentEditable="true" class="p-web">Es währte auch gar nicht lange, da kam ein junges Mädchen dorthin. Sie schien heftig zu erschrecken, aber nur einen Augenblick; dann holte sie andere Leute herbei, und die Meernixe sah, daß der Prinz wieder zu sich kam, und daß er alle anlächelte. Nur ihr, seiner Retterin, lächelte er nicht zu; allein er wußte ja gar nicht, daß sie ihn gerettet hatte. Da wurde ihr das Herz recht schwer, und als er in das große Gebäude hineingeführt wurde, tauchte sie traurig unter das Wasser und kehrte zum Schloß ihres Vaters zurück.
+Von nun an stieg sie des Morgens und des Abends oft hinauf und suchte die Stelle, wo sie den Prinzen verlassen hatte. Sie sah, wie die Früchte des Gartens reiften und abgepflückt wurden, sah, wie der Schnee auf den hohen Bergen schmolz; aber den Prinzen sah sie nicht wieder und kehrte jedesmal betrübter heim.
+Ihr einziger Trost war, in ihrem Gärtchen zu sitzen und die Arme um die schöne Marmorstatue, die dem Prinzen glich, zu schlingen. Aber ihre Blumen pflegte sie nicht mehr, und so wuchsen diese über die Gänge hinaus und verflochten ihre langen Stiele und Blätter mit den Zweigen der Bäume, so daß es dort ganz dunkel wurde.
+Zuletzt konnte sie es nicht mehr länger aushalten; sie klagte ihr Leid einer ihrer Schwestern, und dann erfuhren es auch die andern, aber niemand weiter als diese und einige andere Meermädchen, die es nur ihren nächsten Freundinnen mitteilten. Eine von ihnen wußte denn auch, wo der Prinz war; sie hatte jenes Fest auf dem Schiffe auch gesehen und konnte Auskunft geben, wo er war und wo sein Königreich lag.
+»Komm, Schwesterchen!« sagten die andern Prinzessinnen; und die Arme ineinander geschlungen, stiegen sie in einer langen Reihe an der Stelle, wo des Prinzen Schloß lag, aus dem Wasser empor.
+Das Schloß war aus einer hellgelben, glänzenden Steinart gebaut und hatte große Marmortreppen, deren eine bis zum Meer hinabführte.
+Prächtige, vergoldete Kuppeln zierten das hohe Dach, und zwischen den Säulen, die das ganze Gebäude umgaben, standen Marmorbilder, die wie lebendige Wesen aussahen. Durch die hohen Fenster sah man in die prächtigen Säle hinein, wo kostbare seidene Vorhänge hingen und alle Wände mit schönen Gemälden geschmückt waren, so daß es ein großer Genuß war, hineinzuschauen. Mitten in dem größten Saale war ein hoher Springbrunnen, und dessen Strahlen erhoben sich bis zu der Glaskuppel an der Decke, durch die die Sonne auf das Wasser und die Pflanzen, die in dem großen Bassin wuchsen, herabschien.
+Nun wußte die Nixe doch, wo der Prinz wohnte, und dort weilte sie nun manchen Abend und manche Nacht auf dem Wasser. Sie schwamm viel weiter ans Land, als die andern Schwestern es je gewagt hatten, ja, sie ging sogar den schmalen Kanal hinauf, bis unter die prächtige Marmorterrasse, die weit über das Wasser hinausragte. Hier saß sie und betrachtete den jungen Prinzen, der meinte, er sei ganz allein in dem hellen Mondschein.</p>
+        
+        <h3 contentEditable="true" id="kapitel-6">Kapitel 6</h3>
+        <p contentEditable="true" class="p-web">Sie sah ihn manchen Abend mit Musik in seinem prächtigen, mit Flaggen geschmückten Boote auf dem Wasser fahren. Dann lauschte sie aus dem grünen Schilfe hervor, und wenn der Wind durch ihren langen, silberweißen Schleier wehte, so hätte man glauben können, es sei ein Schwan, der die Flügel ausbreitete. Manchmal, wenn die Fischer mit Fackeln auf dem Fischfang waren, hörte sie viel Gutes von dem Prinzen erzählen, und dann freute sie sich, daß sie ihm das Leben gerettet hatte, damals, als er halb tot auf den Wogen umhertrieb. Und sie dachte daran, wie fest sein Haupt an ihrem Busen geruht und wie innig sie ihn damals geküßt hatte. Aber er wußte ja gar nichts davon und konnte also nicht einmal von ihr träumen.
+Mehr und mehr fing sie an, die Menschen zu lieben, mehr und mehr wünschte sie unter ihnen umherwandeln zu können, unter ihnen, deren Welt weit größer zu sein schien als die ihrige. Sie konnte ja auf Schiffen über das Meer fliegen, auf den hohen Bergen zu den Wolken emporsteigen, und ihre Länder erstreckten sich mit Wäldern und Feldern weiter, als ihre Blicke reichten. Es gab so vieles, was sie gerne gewußt hätte; aber ihre Schwestern konnten ihre Fragen nicht alle beantworten. Deshalb ging sie zu der Großmutter. Diese kannte die Oberwelt recht gut, die sie sehr richtig »die Länder über dem Meere« nannte.
+»Wenn nun die Menschen nicht ertrinken«, fragte das Meermädchen, »können sie dann ewig leben? Sterben sie nicht, wie wir hier unten im Meere?«
+»Doch«, sagte die Alte, »sie müssen auch sterben, und ihr Leben währt sogar noch kürzer als das unsere. Wir können dreihundert Jahre alt werden; aber wenn unser Dasein aufhört, werden wir in Meeresschaum verwandelt und haben nicht einmal ein Grab hier unten unter unsern Lieben. Wir haben keine unsterbliche Seele und können darum auch nicht auferstehen. Wir sind gleich dem grünen Schilfe: ist das einmal durchschnitten, so kann es nicht wieder grünen. Die Menschen dagegen haben eine Seele, die unsterblich ist, ja, die noch weiter lebt, selbst wenn der Körper zu Erde geworden ist. Sie steigt dann durch die klare Luft empor, hinauf zu den glänzenden Sternen. So wie wir aus dem Wasser auftauchen und die Länder der Erde erblicken, so steigt die Menschenseele zu unbekannten herrlichen Orten empor, die wir nie zu sehen bekommen.«
+»Warum wurde denn uns keine unsterbliche Seele zuteil?« fragte die Nixe betrübt. »Ich würde gleich meine dreihundert Jahre, die mir beschieden sind, hingeben, wenn ich dafür nur einen Tag ein Mensch sein könnte und dann auch Anteil an der himmlischen Welt bekäme.«
+»So mußt du nicht denken«, sagte die Alte; »wir fühlen uns weit glücklicher und haben es viel besser als die Menschen dort oben.«
+Die Meerprinzessin klagte: »Ich muß also sterben und als Schaum auf dem Meere dahintreiben! Ich werde dann die Musik der Wogen nicht mehr hören, die schönen Blumen und die rote Sonne nicht mehr sehen! Kann ich denn gar nichts tun, um eine unsterbliche Seele zu erlangen?«
+»Nein«, sagte die Alte, »nur wenn ein Mensch dich so lieb gewinnen würde, daß du ihm mehr wärest als Vater und Mutter. Wenn er mit all seinen Gedanken und all seiner Liebe nur dich begehrte und den Priester seine rechte Hand in die deinige legen ließe zum Treubund für Zeit und Ewigkeit, dann würde seine Seele in deinen Körper überfließen, und du erhieltest Anteil an der Glückseligkeit, die dem Menschen beschieden ist. Er gäbe dir eine Seele und behielte doch seine eigene. Allein das wird nie geschehen; was wir hier im Meere gerade so schön finden, nämlich den Fischschwanz, das gilt dort auf der Erde für häßlich; die Menschen verstehen es eben nicht besser. Um schön zu sein, muß man dort zwei plumpe Pfosten haben, die sie Beine nennen.«
+Da seufzte die Nixe und betrachtete betrübt ihren Fischschwanz.
+»Komm, wir wollen zufrieden und vergnügt sein!« sagte die Alte. »Hüpfen und springen wollen wir in den dreihundert Jahren unserer Lebenszeit. Das ist fürwahr lange genug. Später kann man um so friedlicher ausruhen. Komm, heute abend ist großer Ball im Schlosse.«
+Und das war eine Pracht, wie man sie nie auf Erden geschaut hat! Die Wände und die Decken des großen Tanzsaals waren von ganz dickem, aber durchsichtigem Glas. Mehrere hundert riesengroße, rosenrote und grasgrüne Muscheln standen auf jeder Seite des Saals, jede mit einer blauschimmernden Fackel, die den ganzen Raum hell erleuchteten und durch die Wände hindurchschienen, so daß das Schloß in einem Lichtmeer zu stehen schien. Man konnte unzählige große und kleine Fische sehen, die gegen die Glasmauern schwammen; auf einigen glänzten die Schuppen purpurrot, auf andern erschienen sie wie Silber und Gold. Mitten durch den Saal floß ein breiter Strom, und auf diesem tanzten die Meermänner und Meerweibchen zu ihrem eigenen, lieblichen Gesange. Solch schöne Stimmen haben die Menschen auf der Erde nicht; aber die jüngste Meerprinzessin sang am allerschönsten, und der ganze Hof klatschte mit den Händen und Schwänzen Beifall. Einen Augenblick fühlte sie sich auch in dem Bewußtsein, daß sie auf der ganzen Erde und im Meere die allerschönste Stimme habe, hoch beglückt; allein bald mußte sie wieder an die Welt über sich denken. Sie konnte den schönen Prinzen und ihr Herzeleid darüber, daß sie nicht auch eine unsterbliche Seele besaß, nicht vergessen. Deshalb schlich sie aus ihres Vaters Schloß hinaus, und während drinnen eitel Gesang und Frohsinn herrschte, saß die betrübt in ihrem kleinen Garten. Da hörte sie eine Musik durch das Wasser herunterschallen und dachte: »Nun fährt er gewiß dort oben vorüber, er, an den ich immer denken muß, er, den ich mehr liebe als Vater und Mutter, er, in dessen Hand ich mein Schicksal legen möchte. Alles, alles will ich wagen, um ihn und eine unsterbliche Seele zu gewinnen! Während meine Schwestern drinnen im Schlosse des Vaters tanzen, will ich zu der Meerhexe gehen, vor der ich mich bis jetzt immer so gefürchtet habe; sie kann mir vielleicht raten und helfen.«</p>
+        
+        <h3 contentEditable="true" id="kapitel-7">Kapitel 7</h3>
+        <p contentEditable="true" class="p-web">Darauf ging die kleine Prinzessin aus ihrem Garten hinaus und hin zu dem brausenden Strudel, hinter dem die Hexe wohnte. Noch nie hatte sie diesen Weg betreten. Hier wuchsen keine Blumen und kein Seegras; nur der nackte graue Sandboden erstreckte sich bis zum Strudel hin, wo das Wasser gleich rauschenden Mühlrädern herumwirbelte und alles, was es erfaßte, mit sich in die Tiefe riß. Zwischen diesen verderbenbringenden Wirbeln mußte sie hindurch, um ins Gebiet der Meerhexe zu gelangen, und von hier führte der Weg über warmen, sprudelnden Schlamm, den die Hexe ihr Torfmoor nannte. Dahinter lag ihr Haus mitten in einem seltsamen Walde. Die Bäume und Gebüsche waren nämlich Polypen, halb Tier, halb Pflanzen. Sie sahen aus wie hundertköpfige Schlangen, die aus der Erde hervorwuchsen; die Zweige aber glichen langen, schleimigen Armen mit Fingern wie gelenkige Würmer, und alle Glieder bewegten sich an den Bäumen von der Wurzel bis zum Gipfel. Alles, was sie im Meere erfassen konnten, umschlangen sie fest und ließen es nicht wieder los. Die Prinzessin blieb vor dem Hause der Meerhexe ganz erschrocken stehen; ihr Herz pochte heftig, und sie wäre fast wieder umgekehrt. Aber dann dachte sie an den Prinzen und an die Seele der Menschen, und da faßte sie wieder Mut. Sie band ihr langes Haar fest um den Kopf, damit die Polypen sie nicht daran erfassen könnten, kreuzte die Hände über der Brust und eilte nun so schnell, wie ein Fisch nur immer durchs Wasser schießen kann, durch die greulichen Polypen hindurch, die ihre geschmeidigen Arme und Finger nach ihr ausstreckten. Sie sah, daß jeder von ihnen irgend etwas erfaßt hatte und mit hundert kleinen Armen wie mit eisernen Zangen festhielt. Menschen, die auf der See umgekommen und hinuntergesunken waren, sahen als weiße Gerippe aus ihren Fangarmen hervor; Ruder und Kisten hielten sie fest, auch Skelette von Landtieren und sogar ein kleines Meermädchen, das sie gefangen und erstickt hatten; und das war unserm Meermädchen das Schrecklichste von allem.
+Nun kam sie zu einem großen, sumpfigen Platze im Walde, wo greuliche Wasserschlangen sich herumwälzten. Mitten auf dem Platze stand ein von den Knochen ertrunkener Menschen errichtetes Haus und davor saß die Meerhexe und ließ eine Kröte aus ihrem Mund fressen, wie die Menschen einem Kanarienvögelchen zu essen geben.
+»Ich weiß schon, was du willst«, begann die Meerhexe. »Es ist zwar sehr töricht von dir, aber du sollst deinen Willen haben; denn er wird dich ins Unglück stürzen, meine schöne Prinzessin! Du möchtest deinen Fischschwanz los sein und statt dessen zwei Pfosten zum Gehen haben, wie die Menschen, damit sich der junge Prinz in dich verliebt und du ihn und seine unsterbliche Seele bekommen kannst! Du kommst auch gerade zur rechten Zeit; denn nach dieser Nacht könnte ich dir nicht helfen, ehe wieder ein ganzes Jahr vergangen wäre. Ich werde dir einen Trank bereiten, mit dem mußt du, ehe die Sonne aufgeht, ans Land schwimmen, dich dort ans Ufer setzen und ihn austrinken. Darauf schrumpft dein Schwanz zu dem zusammen, was die Menschen niedliche Beine nennen. Aber es tut sehr weh, und es wird dir sein, als ob ein scharfes Schwert dich durchdränge. Wer dich sieht, wird sagen, du seist das schönste Menschenkind, das man je gesehen habe. Du behältst einen schwebenden Gang – keine Tänzerin kann so leicht dahingleiten als du – aber bei jedem Schritt wirst du das Gefühl haben, als ob du auf scharfe Messer trätest und dein Blut fließen müßte. Aber wenn du all dies leiden willst, dann werde ich dir helfen.«
+»Ja, ich will es«, sagte die Nixe mit bebender Stimme und dachte dabei an den Prinzen und an die unsterbliche Seele.
+»Aber bedenke wohl«, sagte die Hexe, »wenn du erst einmal menschliche Gestalt angenommen hast, kannst du nie wieder eine Nixe werden. Niemals kannst du wieder durch das Wasser zu deinen Schwestern, zum Schlosse deines Vaters zurückkehren. Und wenn du die Liebe des Prinzen nicht gewinnst, so daß du ihm mehr bist als Vater und Mutter und er den Priester eure Hände ineinander legen läßt, daß ihr Mann und Frau werdet, so bekommst du keine unsterbliche Seele. Am ersten Morgen, nachdem er sich mit einer andern vermählt hat, wird dein Herz brechen und du wirst zu Schaum auf dem Wasser.«
+»Ich will es«, sagte die Meernixe und war dabei bleich wie der Tod.
+»Mich aber mußt du bezahlen«, sagte die Hexe, »und ich verlange nicht wenig. Von allen hier auf dem Meeresgrunde hast du die schönste Stimme, und du denkst wohl, du könntest den Prinzen damit bezaubern; allein diese Stimme mußt du mir geben. Das Beste, was du besitzest, will ich für meinen köstlichen Trank haben; denn ich muß dir ja von meinem eigenen Blut geben, damit der Trank scharf wie ein zweischneidiges Schwert wird.«
+»Aber wenn du mir meine Stimme nimmst«, sagte die Nixe, »was bleibt mir dann übrig?«
+»Deine schöne Gestalt«, entgegnete die Hexe, »dein schwebender Gang und deine sprechenden Augen. Damit kannst du schon ein Menschenherz bezaubern. Nun, hast du den Mut verloren? Strecke nur deine kleine Zunge heraus, dann schneide ich sie ab, nehme sie an Zahlungs Statt, und du erhältst den Zaubertrank.«
+
+»Sei es!« sagte die Nixe, und sogleich setzte die Hexe ihren Kessel auf, um den Trank zu kochen. »Reinlichkeit ist das halbe Leben!« sagte sie und scheuerte den Kessel mit einer Hand voll Schlangen aus. Dann ritzte sie sich in die Brust und ließ ihr scharfes Blut hineintröpfeln. Es zischte und brodelte in dem Kessel, daß es einem ganz angst und bange dabei wurde. Jeden Augenblick warf die Hexe neue Zutaten hinein, und es stieg ein schrecklicher Dampf auf. Endlich war der Trank fertig, und da sah er wie das klarste Wasser aus.
+»Da hast du ihn!« sagte die Hexe, und darauf schnitt sie der Nixe die Zunge ab, die nun stumm war und weder singen noch sprechen konnte. »Sollten die Polypen dich ergreifen wollen, wenn du durch meinen Wald zurückgehst«, fuhr die Hexe fort, »so besprenge sie nur mit einem Tropfen dieses Getränks, davon zerspringen ihre Arme und Finger.«</p>
+        
+        <h3 contentEditable="true" id="kapitel-8">Kapitel 8</h3>
+        <p contentEditable="true" class="p-web">Aber das brauchte die Meerprinzessin nicht zu tun; die Polypen zogen sich erschrocken zurück, als sie den hellen Trank erblickten, der wie ein funkelnder Stern in ihrer Hand leuchtete. So eilte sie rasch durch den Wald, das Moor und den brausenden Strudel zurück.
+Jetzt konnte sie schon das Schloß ihres Vaters sehen; die Fackeln in dem großen Saale waren erloschen; sie schliefen wohl schon alle dort drinnen. Sie wagte es jedoch nicht, sie aufzusuchen, jetzt, da sie stumm war und die Ihrigen für immer verlassen wollte, aber es war ihr, als ob ihr Herz vor Schmerz brechen sollte. Sie schlich in den Garten hinein, pflückte von jedem der Blumenbeete der Schwestern eine Blume, warf dem Schlosse viele tausend Kußhände zu und stieg durch die dunkelblaue See empor.
+Die Sonne war noch nicht aufgegangen, als sie am Schlosse des Prinzen anlangte und die prächtigen Marmortreppen hinaufstieg; es war heller, klarer Mondschein. Nun trank die Meerprinzessin den brennend scharfen Trank, und da war es ihr, als ginge ein zweischneidiges Schwert durch ihren zarten Körper; sie verlor das Bewußtsein und lag wie tot da. Als die Sonne auf das Meer schien, erwachte sie und fühlte einen stechenden Schmerz; aber gerade vor ihr stand der schöne, junge Prinz und heftete seine schwarzen Augen auf sie, so daß sie die ihrigen niederschlagen mußte. Da gewahrte sie, daß ihr Fischschwanz verschwunden war, und sie die niedlichsten weißen Beine hatte, die nur ein Mädchen haben kann. Aber sie war nackt, und so hüllte sie sich in ihr langes, dichtes Haar wie in einen Mantel. Der Prinz fragte sie, wer sie sei, und wie sie hierhergekommen. Sie sah ihn mit ihren dunkelblauen Augen freundlich und doch tieftraurig an, sprechen konnte sie ja nicht. Da nahm er sie bei der Hand und führte sie hinein in sein Schloß. Bei jedem Schritt, den sie machte, war es ihr, wie die Hexe es im voraus gesagt hatte, als trete sie auf lauter spitzige Nadeln und scharfe Messer; aber das ertrug sie gern. An des Prinzen Hand schritt sie so leicht wie eine Seifenblase dahin, und er sowie alle andern verwunderten sich über ihren anmutigen, schwebenden Gang.
+Nun wurde sie in herrliche Kleider von Seide und Musselin gehüllt; im Schlosse war sie die schönste von allen, aber stumm war sie, konnte weder singen noch sprechen. Herrliche Sklavinnen, in Seide und Gold gekleidet, kamen herbei und sangen vor dem Prinzen und seinen königlichen Eltern; eine sang schöner als die andere, und dann klatschte der Prinz in die Hände und lächelte ihr zu. Da wurde die kleine Meerprinzessin sehr betrübt, sie wußte, daß sie selbst noch viel schöner gesungen hatte und dachte: »Ach, wenn er nur wüßte, daß ich meine Stimme für Zeit und Ewigkeit hingegeben habe, um bei ihm sein zu dürfen.«
+Nun tanzten die Sklavinnen reizende schwebende Tänze zu einer lieblichen Musik. Da erhob die Nixe ihre schönen, weißen Arme, richtete sich auf den Fußspitzen auf, schwebte anmutig über den Boden hin und tanzte so schön, wie man noch nie jemand hatte tanzen sehen. Bei jeder Bewegung trat ihre Schönheit deutlicher hervor, und ihre Augen sprachen inniger zum Herzen als der Gesang der Sklavinnen.
+Alle waren entzückt davon und ganz besonders der Prinz, der sie sein liebes kleines Findelkind nannte. Sie aber tanzte immer weiter, obgleich es ihr jedesmal, wenn ihr Fuß die Erde berührte, war, als ob sie auf scharfe Messer träte. Der Prinz sagte, sie müsse immer bei ihm bleiben; und sie erhielt die Erlaubnis, vor seiner Türe auf einem Samtkissen zu schlafen. Er ließ ihr auch Männerkleider machen, damit sie ihn zu Pferde begleiten konnte. Dann ritten sie miteinander durch die duftenden Wälder, wo die grünen Zweige ihre Schultern streiften und die Vögel zwischen den Blättern sangen. Sie erstieg mit dem Prinzen die hohen Berge, und als ihre zarten Füße bluteten, daß selbst die Begleiter es wahrnehmen konnten, lachte sie nur darüber und stieg mit dem Prinzen immer höher hinauf, bis sie die Wolken unter sich dahinsegeln sahen gleich einem Schwarm Vögel, die nach wärmeren Ländern ziehen.
+Daheim auf des Prinzen Schlosse, wenn nachts die andern schliefen, setzte sie sich auf die breite Marmortreppe unten am Meeresrand und kühlte ihre brennenden Füße im kalten Seewasser; das tat ihr wohl, und dann gedachte sie der Ihrigen dort unten in der Tiefe. Eines Nachts erschienen plötzlich ihre Schwestern Arm in Arm über der Meeresfläche. Sie sangen wehmütige Lieder, während sie durch das Wasser schwammen. Die Nixe winkte ihnen, und da erkannten sie die Schwester und erzählten ihr, wie betrübt sie alle über ihr Fortgehen seien. Von nun an besuchten die Schwestern sie jede Nacht, und einmal erblickte sie sogar die alte Großmutter, die seit vielen Jahren nicht mehr an der Oberfläche des Meeres gewesen war, sowie auch den Meerkönig mit seiner Krone auf dem Haupte. Sie streckten die Hände nach ihr aus, wagten sich aber beide nicht so nahe ans Land als die Schwestern.
+Mit jedem Tage gewann die kleine Meerprinzessin den Prinzen lieber, und auch er liebte sie, wie man ein gutes, süßes Kind lieb hat, aber er dachte nicht daran, sie zur Königin zu machen, und seine Frau mußte sie doch werden, sonst bekam sie ja keine unsterbliche Seele und mußte an seinem Hochzeitstage zu Schaum auf dem Wasser werden.
+»Liebst du mich nicht mehr als alle die andern?« schienen die Augen der Nixe zu fragen, wenn er sie in seine Arme schloß und auf die schöne Stirne küßte.
+»Ja, du bist mir die liebste«, sagte der Prinz; »denn du hast von allen das beste Herz. Du bist mir am treuesten ergeben und du gleichst einem jungen Mädchen, das ich einmal sah, aber wohl nie wiederfinden werde. Ich war auf einem Schiffe, das scheiterte. Die Wogen warfen mich in der Nähe eines Tempels ans Land, wo mehrere junge Mädchen den Gottesdienst verrichteten; die jüngste von ihnen fand mich am Ufer und rettete mich vom Tode. Ich sah sie nur zweimal, aber sie wäre die einzige, die ich auf dieser Welt lieben könnte. Allein du gleichst ihr und verdrängst beinahe ihr Bild aus meiner Seele. Sie ist dem heiligen Tempel geweiht, und nun hat mir ein freundliches Geschick dich gesendet. Wir wollen uns nie wieder trennen.«
+»Ach, er weiß nicht, daß ich es war, die ihm das Leben gerettet hat!« dachte die kleine Nixe. »Ich trug ihn durch die Wogen zum Walde hin, wo der Tempel steht; ich wartete hinter dem Schaume verborgen, ob nicht bald Menschen kommen würden. Ich sah das schöne Mädchen, das er mehr liebt als mich!« Sie seufzte tief auf; denn weinen konnte sie ja nicht. »Das Mädchen ist dem heiligen Tempel geweiht, so hatte er gesagt«, dachte sie weiter. »Nie wird es also in die Welt hinauskommen, und nie werden sich die beiden wieder begegnen. Ich aber bin bei ihm und sehe ihn jeden Tag; ich will ihn pflegen, lieben und ihm mein Leben opfern.«
+</p>
+        
+        <h3 contentEditable="true" id="kapitel-9">Kapitel 9</h3>
+        <p contentEditable="true" class="p-web">Aber nun sollte sich der Prinz vermählen, und zwar, wie es hieß, mit der schönen Tochter des Nachbarkönigs. Deshalb wurde ein prächtiges Schiff ausgerüstet. »Es heißt allerdings«, sagten die Leute, »der Prinz wolle nur die Länder des Nachbarkönigs besichtigen, allein es geschieht doch nur, um dessen Tochter zu sehen. Ein großes Gefolge wird ihn begleiten.« Die Nixe aber schüttelte den Kopf und lächelte; sie kannte ja des Prinzen Gedanken weit besser als alle andern. »Ja, ich muß allerdings hinreisen«, hatte er zu ihr gesagt, »um die schöne Prinzessin zu sehen. Meine Eltern verlangen es, aber sie werden mich nicht zwingen, sie als meine Braut heimzuführen. Ich weiß zum voraus, daß ich sie nicht lieben kann. Sie gleicht gewiß dem schönen Mädchen im Tempel nicht, dem du so ähnlich bist. Ja, sollte ich jemals eine Braut wählen, so würdest eher du es sein, du, mein stummes Findelkind, mit den sprechenden Augen!« Bei diesen Worten küßte er sie auf ihren roten Mund, spielte mit ihrem langen Haare und legte sein Haupt an ihr Herz, so daß die kleine, arme Nixe von Menschenglück und einer unsterblichen Seele träumte.
+»Du fürchtest dich doch nicht vor dem Meere, mein stummes Kind?« fragte er, als sie auf dem prächtigen Schiffe standen, das ihn nach dem Lande des Nachbarkönigs führen sollte. Darauf erzählte er ihr von Sturm und Windesstille, von seltsamen Fischen in der Tiefe und von dem, was die Taucher dort gesehen hatten, und sie lächelte bei seiner Erzählung. Sie wußte ja viel besser als irgend ein Mensch, wie es auf dem Grunde des Meeres aussah.
+In einer mondhellen Nacht, als außer dem Steuermann, der am Steuerruder stand, alle auf dem Schiffe schliefen, lehnte sie am Geländer und starrte unverwandt in das klare Wasser hinunter. Sie glaubte ihres Vaters Schoß zu erblicken, ganz oben auf der Zinne stand die Großmutter mit der silbernen Krone auf dem Haupte und starrte durch die wilde Strömung zum Kiel des Schiffes empor. Da tauchten plötzlich ihre Schwestern aus dem Wasser auf, schauten sie tieftraurig an und rangen ihre weißen Hände. Sie aber winkte ihnen lächelnd zu und wollte ihnen erzählen, daß es ihr gut gehe und sie glücklich sei; aber in diesem Augenblick kam der Schiffsjunge herbei, und sofort tauchten die Schwestern unter, so daß er glaubte, das Weiße, was er gesehen habe, sei nur Schaum auf den Wogen gewesen.
+Am nächsten Morgen fuhr das Schiff in den Hafen der Hauptstadt des Nachbarlandes. Alle Glocken läuteten, und von den hohen Türmen wurden die Posaunen geblasen, während die Soldaten mit fliegenden Fahnen und blitzenden Bajonetten aufmarschierten. Jeden Tag wurde ein neues Fest gefeiert. Bälle und Gesellschaften wechselten miteinander ab; aber die Prinzessin war noch nicht da. Es hieß, sie befinde sich weit von hier entfernt in einem Tempel, wo sie zu allen königlichen Tugenden erzogen werde. Endlich traf sie ein.
+Die Nixe war sehr begierig, die gepriesene Schönheit zu sehen. Sie mußte auch zugeben: eine lieblichere Erscheinung als die Königstochter hatte sie noch nie gesehen. Ihre Haut war zart und fein, und hinter den langen, dunklen Augenwimpern strahlten ein paar dunkelblaue, treue Augen hervor.
+»Du, du bist es!« rief der Prinz; »du hast mich gerettet, als ich damals leblos am Ufer lag!« Und er drückte sie als seine errötende Braut in seine Arme.
+»O, ich bin zu glücklich«, sagte er zu der Nixe. »Das Beste, das ich je zu hoffen gewagt, ist mir zuteil geworden. Ich weiß, du freust dich mit mir über mein Glück; denn du bist mir von allen am treuesten ergeben!«
+Und die Meerprinzessin küßte dem Prinzen die Hand, und es kam ihr schon jetzt vor, als fühle sie ihr Herz brechen. Am Hochzeitstage des Prinzen war sie ja dem Tode verfallen und wurde in leichten Meeresschaum verwandelt.
+Alle Kirchenglocken läuteten; die Herolde ritten durch die Straßen und verkündeten die Vermählung. Auf allen Altären brannte wohlriechendes Öl in kostbaren, silbernen Lampen. Die Priester schwangen die Rauchfässer; Braut und Bräutigam reichten einander die Hand und erhielten den Segen des Bischofs. Die Nixe war in Seide und Gold gekleidet und trug der Braut die Schleppe. Aber ihr Ohr vernahm die festliche Musik nicht, und ihr Auge sah nicht die heilige Handlung; sie mußte immerfort an ihre Todesnacht und an all das, was sie in dieser Welt verloren, denken.
+Noch an demselben Abend begaben sich Braut und Bräutigam an Bord des Schiffes. Die Kanonen donnerten; die Flaggen wehten und mitten auf dem Schiffe war ein königliches Zelt aus Gold und Purpur errichtet und mit den schönsten Kissen geschmückt; da sollte das Brautpaar in der kühlen, stillen Nacht schlafen.
+Der Wind blähte die Segel, und das Schiff glitt leicht über die klare See dahin.
+Als es dunkelte, wurden bunte Lampen angezündet, und die Seeleute tanzten lustig auf dem Verdeck. Die Nixe aber gedachte jenes Abends, wo sie zum ersten Mal aus dem Meere aufgetaucht war und dieselbe Pracht und Freude erblickt hatte wie heute. Sie drehte sich anmutig im Tanze, leicht wie eine Schwalbe, und alle jubelten laut vor Entzücken; noch nie hatte sie so herrlich getanzt. Wohl drang es ihr durch die Füße wie scharfe Messer; aber sie fühlte es nicht – ein noch schärferer Schmerz drang durch ihr Herz. Sie wußte, das war der letzte Abend, an dem sie ihn sah, ihn, um dessentwillen sie ihre Verwandten und ihre Heimat verlassen, ihre schöne Stimme dahingegeben und täglich unendliche Qualen ertragen hatte, ohne daß auch nur ein Mensch eine Ahnung davon gehabt hatte. Das war nun die letzte Nacht, daß sie dieselbe Luft mit ihm atmete und das tiefe Meer und den sternenhellen Himmel schaute. Eine ewige Nacht ohne Bewußtsein und ohne Träume erwartete sie, weil sie ja keine Seele hatte und nie eine erlangen konnte.
+Freude und Frohsinn herrschte auf dem Schiffe bis lange nach Mitternacht, und auch die arme kleine Nixe lachte und tanzte mit den Todesgedanken im Herzen. Der Prinz küßte seine schöne Braut; sie spielte mit seinem schwarzen Haar, und Arm in Arm gingen sie zur Ruhe in das prächtige Zelt.</p>
+        
+        <h3 contentEditable="true" id="kapitel-10">Kapitel 10</h3>
+        <p contentEditable="true" class="p-web">Ruhig und still wurde es auf dem Schiffe; nur der Steuermann stand am Steuerruder. Die Nixe legte ihre weißen Arme auf das Schiffsgeländer und schaute gegen Osten nach der Morgenröte aus. Sie wußte, der erste Sonnenstrahl brachte ihr den Tod.
+Da sah sie plötzlich ihre Schwestern aus dem Wasser emportauchen. Sie waren ebenso bleich als sie selbst, und ihre langen, schönen Haare wehten nicht mehr im Winde: sie waren abgeschnitten.
+»Wir haben es der Hexe gegeben, um Hilfe für dich zu erlangen, damit du heute nacht nicht sterben mußt. Sie hat uns ein Messer gegeben; siehe, hier ist es! Siehe, wie scharf es ist! Ehe die Sonne aufgeht, mußt du es dem Prinzen ins Herz stoßen, und sobald sein warmes Blut auf deine Füße spritzt, wachsen diese wieder in einen Fischschwanz zusammen. Du wirst dann wieder eine Nixe, kannst zu uns herabsteigen und lebst deine dreihundert Jahre, ehe du zu totem, salzigem Meeresschaum wirst. Aber beeile dich! Er oder du muß sterben, ehe die Sonne aufgeht. Unsere Großmutter trauert so tief um dich, daß all ihr weißes Haar ausgefallen ist, gerade wie das unserige unter der Schere der Hexe fiel. Töte den Prinzen und kehre zu uns zurück! Aber beeile dich! Siehst du den roten Streifen dort am Himmel? In wenigen Minuten geht die Sonne auf, dann mußt du sterben!« Sie seufzten tief auf und versanken in den Wogen.
+Die Nixe zog den Purpurteppich vor dem Zelt zurück und sah die holde Braut an des Prinzen Brust ruhen. Nun beugte sich die Nixe zu ihm nieder und küßte ihn auf die schöne Stirne, blickte dann zum Himmel empor, wo die Morgenröte immer rosiger glühte, betrachtete das scharfe Messer in ihrer Hand und heftete ihre Blicke wieder auf den Prinzen, der im Traume den Namen seiner Braut aussprach. Ja, sie allein war in seinen Gedanken, und das Messer zitterte in der Hand des Meermädchens. Aber dann schleuderte sie es plötzlich weit von sich hinaus in die Wogen, und da war es, als ob dunkelrote Blutstropfen hoch aufspritzten. Noch einen letzten Blick warf sie mit halbgebrochenen Augen auf den Prinzen, stürzte sich dann vom Schiffe in das Meer hinab und fühlte, wie ihr Körper sich in Schaum auflöste.
+Nun erhob sich die Sonne über dem Meere; mild und warm fielen ihre Strahlen auf den toten, kalten Meeresschaum, und die Nixe fühlte den Tod nicht. Sie sah die helle Sonne, und neben ihr schwebten Hunderte von durchsichtigen, lieblichen Geschöpfen, durch die hindurch sie des Schiffes weiße Segel und die glänzenden, roten Wolken erblicken konnte. Die Sprache dieser Wesen war melodisch, aber so geisterhaft, daß kein menschliches Ohr sie vernehmen, wie auch kein irdisches Auge sie gewahren konnte. Ohne Flügel schwebten sie vermöge ihrer eigenen Leichtigkeit durch die Luft. Und nun sah die Nixe, daß sie selbst einen Körper gleich dem dieser Gestalten hatte, der sich mehr und mehr aus dem Schaum erhob.
+»Wohin komme ich?« fragte sie, und ihre Stimme klang wie die der schwebenden Gestalten, ebenso geisterhaft, daß keine irdische Musik sie wiederzugeben vermag.
+»Zu den Töchtern der Luft!« erwiderten die andern. »Die Nixe hat keine unsterbliche Seele und kann nie eine solche erhalten, wenn sie nicht die Liebe eines Menschen gewinnt. Von einer fremden Macht hängt ihr ewiges Dasein ab. Wir Töchter der Luft haben auch keine unsterbliche Seele; aber wir können uns durch gute Handlungen selbst eine verschaffen. Wir fliegen nach den warmen Ländern, wo die giftige Pestluft die Menschen tötet; dort fächeln wir ihnen Kühlung zu. Wir verbreiten den Duft der Blumen in der Luft und senden Erquickung und Heilung. Wenn wir dreihundert Jahre lang darnach gestrebt haben, alles Gute, was in unserer Macht steht, zu vollbringen, dann bekommen wir eine unsterbliche Seele und dürfen am ewigen Glücke der Menschen teilnehmen. Du arme kleine Nixe hast gelitten und geduldet und hast dich damit zur Welt der Luftgeister erhoben, und du kannst dir nun durch gute Werke nach dreihundert Jahren selbst eine unsterbliche Seele schaffen.«
+Da erhob die Nixe ihre durchsichtigen Arme zu Gottes Sonne empor, und zum ersten Mal füllten sich ihre Augen mit Tränen.
+Auf dem Schiffe erwachte wieder Lärm und Leben. Sie sah den Prinzen und seine schöne Braut nach ihr suchen; wehmütig starrten sie auf die schäumenden Wogenkämme, als ob sie wüßten, daß sie sich in die Fluten gestürzt habe. Unsichtbar küßte sie die Stirne der Braut, lächelte dem Prinzen zu und bestieg dann mit den übrigen Kindern der Luft eine rosenrote Wolke, die am Himmel hinzog.
+»Nach dreihundert Jahren schweben wir so in das Reich Gottes hinein!«
+»Wir können sogar noch früher dahin gelangen«, flüsterte eine der Lichtgestalten. »Wir schweben unsichtbar in die Häuser der Menschen hinein, wo es Kinder gibt, und für jeden Tag, an dem wir ein gutes Kind finden, das seinen Eltern Freude bereitet und deren Liebe verdient, verkürzt Gott unsere Prüfungszeit. Das Kind weiß nicht, wann wir durch die Stube fliegen, und wenn wir dann aus Freude über das liebe Kind lächeln können, so wird ein Jahr von den dreihundert abgezogen; sehen wir aber ein unartiges und böses Kind, dann müssen wir Tränen der Trauer vergießen, und jede Träne legt unserer Prüfungszeit einen Tag zu.«</p>
+        
+         </section>
+        
+    
+        
+        
+    </div>
+    
+</div>
+<!-- Texteditor Ende ------------------------------------------------------------ -->
+    
+    
+    
+    <script>
+    function myFunction2() {
+      var x = document.getElementById("myInput").value;
+      document.getElementById("demo");
+    }
+</script>
+<script>
+// Create a "close" button and append it to each list item
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+function newElement() {
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("myInput").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+    document.getElementById("myUL").appendChild(li);
+	document.getElementById("myInput").value = "";
+}
+</script>
+    
+</body>
+</html>
