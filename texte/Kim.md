@@ -2,7 +2,7 @@
 # Titel
 *Kim Farkasch*
 
-(aktueller Wortstand 959)
+(aktueller Wortstand 1003)
 
 Autoren, deren Inhalte im Internet publiziert werden, müssen anders geschützt werden, als man es mit analogen Publikationen bisher getan hat. Dies steht in einem starken Gegensatz zu dem allgemeinen Anspruch auf Zugänglichkeit (accessibility) von digitalen Inhalten im Internet.
 Gerade wenn hinter besagten Inhalten ein Autor steht, welcher der Vervielfältigung und Adaption seines Werkes nicht zugestimmt hat, müssen Regeln für den digitalen Raum neu Definiert werden.
