@@ -16,5 +16,21 @@ feedback 26.2.:
 * nicht "markt", interessengruppen
 * mit so zwei beispielen
 * nah am self-publishing arbeiten -> weites feld
+
+_________
+aufbau:
+- einleitung: thema eingrenzen (nichtästhetik und ästhetik -> unterteilung gerechtfertigt?), position (nö isses nicht)
+- hauptteil: "nö isses nicht" von mir, da verschiedene interessengruppen, und von 1-2 anderen, 1-2 "ja doch isso" von anderen (hier wär gut: ökologischer aspekt? vllt? oder bezug auf interessengruppen eben als so "jaa vllt" position)
+- zusammenfassung: gibt paar ansätze aber NATÜRLICH lol ist mein ansatz bestätigt worden-> unsinn gibts nicht!
 _______________________________________
+
+Ästhetik und Nichtästhetik in der kreativen Entfaltung durch Nutzung von self publishing-Methoden
+
+Die heutigen Möglichkeiten der Selbstpublikation ermöglichen einer zahlreichen Anzahl von Nutzern, ihre eigenen Werke auf einfache Art und Weise zu publizieren. Auch im kreativen Bereich wird diese Möglichkeit genutzt und mit Hilfe von eigens erstellten Werken und Print-On-Demand-Webseiten, wie zum Beispiel Lulu.com, ein hybrid zwischen digitaler und analoger Kunst geschaffen - das sogenannte "hybrid publishing". Dadurch, dass das eigene Publizieren so einfach geworden ist, bieten sich Möglichkeiten, die gegebenen Strukturen entfremdend zu nutzen und so Beispielsweise, wie in Jean Kellers The Black Book (Bajohr 2016:).
+
+____
+
+Literaturverzeichnis
+
+Bajohr, Hannes (2016): Infradünne Plattformen. Print-on-Demand als Strategie und Genre, in *Merkur*, Jg. 70, Nr. 800, S. 
 
