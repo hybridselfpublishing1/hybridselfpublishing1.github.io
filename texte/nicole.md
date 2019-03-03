@@ -19,7 +19,7 @@ feedback 26.2.:
 
 _________
 aufbau:
-- einleitung: thema eingrenzen (nichtästhetik und ästhetik -> unterteilung gerechtfertigt?), position (nö isses nicht)
+- einleitung: thema eingrenzen (nichtästhetik und ästhetik -> unterteilung gerechtfertigt?), position anteasern (nö isses nicht)
 - hauptteil: "nö isses nicht" von mir, da verschiedene interessengruppen, und von 1-2 anderen, 1-2 "ja doch isso" von anderen (hier wär gut: ökologischer aspekt? vllt? oder bezug auf interessengruppen eben als so "jaa vllt" position)
 - zusammenfassung: gibt paar ansätze aber NATÜRLICH lol ist mein ansatz bestätigt worden-> unsinn gibts nicht!
 _______________________________________
