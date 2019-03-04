@@ -16,18 +16,18 @@ In Anbetracht all dieser Aspekte lässt sich das Fazit ziehen, dass sich das hyb
 ____
 **Literaturverzeichnis**
 
-Riehm, Ulrich, Böhle, Knud und Wingert, Bernd (2004): Elektronisches Publizieren, in: R. Kulen, Th. Seeger, D. Strauch (Hrsg.), Grundlagen der praktischen Information und Dokumentation. Band 1: Handbuch zur Einführung in die Informationswissenschaft und -praxis, München: Saur, S. 549-559.
-
 Bajohr, Hannes (2016): Infradünne Plattformen: Print-on-Demand als Strategie und Genre, Stuttgart: Klett-Cotta Verlag, S. 79-87.
-
-Ernst, Thomas (2016): Eine Kritik der Kritik des Open Access. Zu den Debatten über das Zweitveröffentlichungsrecht und über die Wertigkeit von Print- vs. Digitalpublikationen in den Geisteswissenschaften, [online] https://edoc.hu-berlin.de/bitstream/handle/18452/9758/13.pdf?sequence=1 [02.03.2019].
-
-Weinmayr, Eva (2016): Library Underground, [online] http://andpublishing.org/v2/wp-content/uploads/2016/05/Eva-Weinmayr-Library-Underground-Sternberg.pdf [01.03.2019].
 
 Dworkin, Craig, Gilbert, Annette, Morris, Simon, Soto, Carlos und Thurston, Nick (2012): Do or DIY, Zur Geschichte und Praxis des Selbstverlags, [online] https://www.dropbox.com/s/vbnxac51t4vazrx/do%20or%20diy.pdf?dl=0 [01.03.2019].
 
+Ernst, Thomas (2016): Eine Kritik der Kritik des Open Access. Zu den Debatten über das Zweitveröffentlichungsrecht und über die Wertigkeit von Print- vs. Digitalpublikationen in den Geisteswissenschaften, [online] https://edoc.hu-berlin.de/bitstream/handle/18452/9758/13.pdf?sequence=1 [02.03.2019].
+
+Franklin, Charles (2017): Hybrid Publishing: 4 Tips for Surviving the Maze, [online] https://thisiswriting.com/hybrid-publishing/ [01.03.2019].
+
 Klems, Brian A. (2016): What is Hybrid Publishing? Here Are 4 Things All Writers Should Know, [online] https://www.writersdigest.com/online-editor/what-is-hybrid-publishing-here-are-4-things-you-should-know [02.03.2019].
+
+Riehm, Ulrich, Böhle, Knud und Wingert, Bernd (2004): Elektronisches Publizieren, in: R. Kulen, Th. Seeger, D. Strauch (Hrsg.), Grundlagen der praktischen Information und Dokumentation. Band 1: Handbuch zur Einführung in die Informationswissenschaft und -praxis, München: Saur, S. 549-559.
 
 Template Studio et al. (o. J.): edit this post, [online] http://editthispost.com/ [03.03.2019].
 
-Franklin, Charles (2017): Hybrid Publishing: 4 Tips for Surviving the Maze, [online] https://thisiswriting.com/hybrid-publishing/ [01.03.2019].
+Weinmayr, Eva (2016): Library Underground, [online] http://andpublishing.org/v2/wp-content/uploads/2016/05/Eva-Weinmayr-Library-Underground-Sternberg.pdf [01.03.2019].
