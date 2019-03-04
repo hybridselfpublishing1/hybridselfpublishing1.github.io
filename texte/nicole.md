@@ -40,13 +40,20 @@ Kenneth Goldsmith (2011: 212) definiert jene Ästhetik folgendermaßen im Bezug 
 
 Auch, wenn Werke wie das von Jean Keller ökologisch und finanziell - schließlich kostet laut Keller eine Gallone Druckertinte über viertausend Dollar (Bajohr 2016: 86) - betrachtet durchaus kritikwürdig sind, so handelt es sich doch bei den meisten Werken um eine konzeptuelle Einheit zwischen dem Werk als PDF-Datei und der potentiellen Möglichkeit des Druckes per Print on Demand. Anette Gilbert (2018: 66 f) erwähnt hierbei, dass diese Einheit "weniger [ein] Ausdruck ökonomischen Kalküls" ist, sondern es sich eher um eine "dem postdigitalen Zeitalter[s] angemessene Strategie" handelt. Das heißt, dass nicht nur allein die Kombination aus PDF-Datei und Print on Demand ein ästhetisches Potential schafft (Gilbert 2018: 66 f), sondern auch die Möglichkeit des Publizierens in physischer Form eine "Potentialität" (Bajohr 2016: 83) beinhaltet, die allein durch die Idee ihrer Realisation Print on Demand-Anbieter zu einem "virtuellen Galerieraum" (Gilbert 2018: 66 f) zweckentfremdet.
 
+*position von jmd der das kritisiert*
+
+*position ludovico*
+Auch Alessandro Ludovico kritisiert das Selbstpublizieren und spricht vom "PoD vanity publishing" (2012: 73). Er schreibt, dass bei vielen potentiellen Autoren eine persönliche Genugtuung darin besteht, ein Buch mit seinem eigenen Namen auf dem Titel zu publizieren und vergleicht dieses Phänomen mit dem "American Dream": Wenn jeder sein Werk veröffentlichen kann, dann könnte ja die Möglichkeit bestehen, dass dieses Werk außergewöhnlich ist und man zum neuen literarischen Wunder wird (vgl. 2012: 73). Jedoch merkt er auch an, dass durch Print on Demand die Publikation von experimentellen Büchern vereinfacht wird, weil dafür keine hohen finanziellen Mittel gebraucht werden und nennt als "gelungenes Beispiel" dafür James Bridles *My Life in Tweets* (2009), in dem ein innovativer Hybrid aus kurzlebigen Twitterposts und einem Tagebuch, was für die Ewigkeit gedacht ist, geschaffen wird (vgl. ebd.). Das heißt, dass einem trotz der Gefahr der Redundanz durch das "vanity publishing" auch die Erschaffung eines innovativen Werks gelingen kann, welches sich in das Genre der kreativen Selbstpublikation einreiht.
+
 
 ____
 **Literaturverzeichnis**
 
-Bajohr, Hannes (2016): Infradünne Plattformen. Print-on-Demand als Strategie und Genre, in *Merkur*, Jg. 70, Nr. 800, S. 79
+Bajohr, Hannes (2016): Infradünne Plattformen: Print-on-Demand als Strategie und Genre, in *Merkur*, Jg. 70, Nr. 800, S. 79
 
-Gilbert, Anette (2018): Vom Rand ins Zentrum - Vom Buch zum Publizieren. Tendenzen künstlerischer Publikationspraxis, in *Kunstforum*, Bd. 256, S. 66
+Gilbert, Anette (2018): Vom Rand ins Zentrum - Vom Buch zum Publizieren: Tendenzen künstlerischer Publikationspraxis, in *Kunstforum*, Bd. 256, S. 66
 
 Goldsmith, Kenneth (2011): *Uncreative Writing: Managing Language in the Digital Age*, New York: Columbia University Press.
+
+Ludovico, Alessandro (2012): *Post-Digital Print: The Mutation of Publishing since 1894*, Eindhoven: Onomatopee.
 
