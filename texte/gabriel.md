@@ -1,4 +1,4 @@
-# Hybrid Publishing - Potenziale neuer Publizierformen
+# Hybrid Publishing - Potenziale einer hybriden Publizierform
 *Gabriel Marques Lopes*
 
 Publikationsformen befinden sich durch die im Zuge der Digitalisierung entwickelten Möglichkeiten im Wandel und passen sich stetig den aktuellen Umständen an. Die sich immer weiter entwickelnde Technik sorgt für neue Wege Literatur zu publizieren. Eine durch diesen Wandel entstandene Publikationsform ist das hybrid publishing. Doch welche Möglichkeiten bietet das hybrid publishing und wie treten die Potenziale dieser Publikationsvariante auf? 
