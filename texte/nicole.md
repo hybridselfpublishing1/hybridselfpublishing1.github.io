@@ -24,13 +24,13 @@ aufbau:
 - zusammenfassung: gibt paar ansätze aber NATÜRLICH lol ist mein ansatz bestätigt worden-> unsinn gibts nicht!
 _______________________________________
 
-Ästhetik und Nichtästhetik in der kreativen Entfaltung durch Nutzung von self publishing-Methoden
+###Ästhetik und Nichtästhetik in der kreativen Entfaltung durch Nutzung von self publishing-Methoden
 
-Die heutigen Möglichkeiten der Selbstpublikation ermöglichen einer zahlreichen Anzahl von Nutzern, ihre eigenen Werke auf einfache Art und Weise zu publizieren. Auch im kreativen Bereich wird diese Möglichkeit genutzt und mit Hilfe von eigens erstellten Werken und Print-On-Demand-Webseiten, wie zum Beispiel Lulu.com, ein hybrid zwischen digitaler und analoger Kunst geschaffen - das sogenannte "hybrid publishing". Dadurch, dass das eigene Publizieren so einfach geworden ist, bieten sich Möglichkeiten, die gegebenen Strukturen entfremdend zu nutzen und so Beispielsweise, wie in Jean Kellers The Black Book (Bajohr 2016:).
-
+Die heutigen Möglichkeiten der Selbstpublikation ermöglichen einer zahlreichen Anzahl von Nutzern, ihre eigenen Werke auf einfache Art und Weise zu publizieren. Auch im kreativen Bereich wird diese Möglichkeit genutzt und mit Hilfe von eigens erstellten Werken und Print-On-Demand-Webseiten, wie zum Beispiel Lulu.com, ein hybrid zwischen digitaler und analoger Kunst geschaffen - das sogenannte "hybrid publishing". Dadurch, dass das eigene Publizieren so einfach geworden ist, bieten sich Möglichkeiten, die gegebenen Strukturen entfremdend zu nutzen 
 ____
 
 Literaturverzeichnis
 
 Bajohr, Hannes (2016): Infradünne Plattformen. Print-on-Demand als Strategie und Genre, in *Merkur*, Jg. 70, Nr. 800, S. 
+Gilbert, Anette (2018): Vom Rand ins Zentrum - Vom Buch zum Publizieren. Tendenzen künstlerischer Publikationspraxis, in *Kunstforum*, Bd. 256, S. 66
 
