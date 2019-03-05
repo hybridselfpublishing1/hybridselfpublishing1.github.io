@@ -1,6 +1,7 @@
 
 # Don't put it online!
 *Kim Farkasch*
+___
 
  Der klassische Autor, welcher seine Werke bisweilen analog publiziert hat, geht davon aus, dass das traditionelle Urheberrecht seine Werke ausreichend schützen könnte. Mit der Etablierung des E-publishings haben viele Autoren neue Möglichkeiten gesehen, ihre Bücher zu veröffentlichen und ihre Reichweite zu vergrößern , ohne über die Angreifbarkeit von digitalen Medien zu reflektieren. Die Illusion der Unantastbarkeit ihrer Arbeiten wurde spätestens dann zerstört, als Werke im Internet „geleaked“, kopiert, verbreitet, kommentiert und appropriiert wurden. Jetzt starten Autoren Diskurse über die Bedeutung von Autorschaft und der Zugänglichkeit ihrer Literatur. Dabei antagonisten manche von ihnen das Internet und seine freien und fast unkontrollierbaren Strukturen. 
 </br>
