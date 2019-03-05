@@ -5,7 +5,7 @@
 <br>
 
 Um herauszufinden, ob postdigitale Literatur ein digitales Medium braucht, muss der Begriff „Postdigital“ erst einmal verstanden werden. Ob es sich dabei um Literatur oder anderweitige Kunst handelt, ist vorerst nicht relevant. Grundlegend wird dabei zwischen analog und digital differenziert.
-<br><br><br>
+<br><br>
 Digital und analog
 Aus rein technologischer oder wissenschaftlicher Sicht ist die Verwendung des Wortes „digital“ zu ungenau. Etwas kann auch digital sein, ohne dabei mit Elektronik oder Computern in Verbindung zu stehen. Umgekehrt bedeutet „analog“ nicht notwendigerweise nicht rechentechnisch zu sein. Es gibt auch analoge Computer. „Digital“ bedeutet einfach, dass etwas in diskrete, zählbare Einheiten unterteilt wird, wie beispielsweise im Binärsystem mit Nullen und Einsen. Damit bildet u.a. die Gutenberg-Druckmaschine, aufgrund der klar definieren und beweglichen Teile ein digitales System. Umgekehrt bedeutet „analog“, dass Informationen in nicht diskret zählbare Einheiten zerteilt werden, sondern aus Signalen bestehen, die kontinuierlich variieren, wie z.B. bei einer Schallwelle oder einem Magnetfeld (Audioband/Computerfestplatte). Ein konkretes Beispiel ist die Mischung von Farben. Am Computer gibt es für eine gemischte Farbe und deren Zwischenwerte genau zählbare Einheiten (digital). In der Malerei hingegen ist bei einer gemischten Farbe und deren Farbverlauf kein konkret zählbares System zu erkennen und ist somit auch nicht exakt reproduzierbar (analog) (vgl. Cramer 2015: 17 f.).
 <br><br>
@@ -28,7 +28,7 @@ Durch Balestrini spielte sich dieses Konzept bis zu den heutigen Print-on-Demand
 <br><br>
 Abschließend ist zu sagen, dass „postdigital“ einen Zustand bezeichnet, in dem das durch digitale Informationstechnologien herbeigeführte Buch bereits in der Vergangenheit liegt (Bajohr 2016: 79).<br>
 Einerseits ist heutzutage das Wort „digital“ nichtssagend geworden, da so gut, wie jede Informationstechnologie digital funktioniert. Andererseits haben wir eine junge Generation medienkritischer Künstler, die analoge Technologien neu entdecken (vgl. Cramer 2016: 31).
-<br><br>
+<br>
 Der Begriff „Postdigital“ braucht in der Literatur schließlich ein analoges und ein digitales Medium, da anders als in postdigitaler Kunst keine Gegenbewegung zur digitalen Reinheit stattfindet, sondern aus digitalem Denken ein analoges Produkt wird. Ausnahme davon ist, das Entdecken der analogen Technologien von jungen Künstlern, die mit digitalem Vorwissen rein analog arbeiten können, indem sie auf alle digitalen Denk- und Arbeitsweisen bewusst verzichten. Da die Jugend darauf aber keinen wert legt, sondern Medien nach eigenen ästhetischen Qualitäten abhängig macht, braucht heutzutage so gut wie jede postdigitale Literatur ein digitales Medium.
 
 
