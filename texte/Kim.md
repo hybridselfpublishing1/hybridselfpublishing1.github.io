@@ -54,15 +54,25 @@ Letztlich scheint es so, als stecke man in einem unendlichen Dilemma zwischen de
  ## Literaturverzeichnis:
  
 Barlow, John Perry: *Selling Wine Without Bottles: The Economy of Mind on the Global Net*, [online]</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://www.eff.org/de/pages/selling-wine-without-bottles-economy-mind-global-net [04.03.2019].</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://www.eff.org/de/pages/selling-wine-without-bottles-economy-mind-global-net [04.03.2019].
 
- Djordjevic, Valie et al. (2018): Dossier Urheberrecht, Bundeszentrale für politische Bildung (Hrsg.), Bonn [online]</br>
+
+ Djordjevic, Valie et al. (2018): *Dossier Urheberrecht*, Bundeszentrale für politische Bildung (Hrsg.), Bonn [online]</br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwimuaWT5OngAhVDDOwKHY8RCnIQFjAAegQIARAC&url=http%3A%2F%2Fwww.bpb.de%2Fsystem%2Ffiles%2Fpdf_pdflib%2Fpdflib-168201.pdf&usg=AOvVaw04VNJ9UPgTFmD9pxgnN6RG [04.03.2019].
 
  
- 
+Cramer, Florian (2002): *VOM FREIEN GEBRAUCH VON NULLEN UND EINSEN –„OPEN 	CONTENT“ UND FREIE SOFTWARE,* </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in: *Managing Language in the Digital Age, 	Columbia University Press*, [online]</br> 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://cramer.pleintekst.nl/all/open_content/open_content.pdf [04.03.2019]. 
 
-  
-  
-  
+Goldsmith, Kenneth (2011): *It's Not Plagiarism. In the Digital Age, It's 'Repurposing.',* [online] </br>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://expandedmedia1.files.wordpress.com/2012/06/uncreative-writing.pdf [04.03.2019]  
+ 
+Lucke, Bettina (2009): *Die Google Buchsuche nach deutschem Urheberrecht und US-amerikanischem Copyright Law*,</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Universität Leipzig, Internationaler Verlag der Wissenschaft [online]</br>     https://books.google.de/books?id=0CDOzLSY1t8C&pg=PA35&dq=autoren+copyright+mehr+gesch%C3%BCtzt+werden&hl=de&sa=X&ved=0ahUKEwiK_MbCmNrgAhWMyKYKHT7CA5UQ6AEINDAC#v=onepage&q=autoren%20copyright%20mehr%20gesch%C3%BCtzt%20werden&f=false [04.03.2019]. 
+ 
+Martin, Shawn (2010): Open Access and Digital Libraries: *A Case Study ofthe Text Creation Partnership*, University of</br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pennsylvania, [online] https://repository.upenn.edu/cgi/viewcontent.cgi?article=1081&context=library_papers </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [04.03.2019].  
          
+Rieble,Volker (2019): Autorenfreiheit und Publikationszwang, in: Volker Rieble und Roland Reuß, *Autorschaft als* 
+</br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Werkherrschaft in digitaler Zeit*, Frankfurt am Main: Vittorio Klostermann GmbH, S. 29-66, [online] </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; http://download.klostermann.de/openaccess/9783465040903.pdf [04.03.2019].
+
+Weinmayr, Eva (2016): Library Underground — a reading list for a coming community, in: Annette 	Gilbert (Edit.), </br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Publishing as Artistic Practice*, Berlin, New York: Sternberg Press, S. 157-	187. [online] </br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; http://andpublishing.org/v2/wp-content/uploads/2016/05/Eva-Weinmayr-	Library-Underground-Sternberg.pdf </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [04.03.2019].
