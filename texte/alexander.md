@@ -46,7 +46,6 @@ Cramer, Florian (2016): Postdigitales Schreiben, in: Bajohr, Hannes (Hrsg.), COD
 
 Cramer, Florian (2015): What Is ‚Post-digital’?, in: Berry, David M. und Dieter, Michael (Hrsg.), Postdigital Aesthetics. Art, Computation and Design, Aufl.1, Basingstoke in Hampshire, Palgrave Macmillan
 
-Alessandro Ludovico Postdigital Print The Mutation of Publishing since 1894 
 Ludovico, Alessandro (2012): Post-Digital Print. The Mutation of Publishing since 1894, Eindhoven, Onomatopee.
 
 
