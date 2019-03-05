@@ -40,7 +40,7 @@ Der Begriff „Postdigital“ braucht in der Literatur schließlich ein analoges
 
 Bajohr, Hannes (2016): Infradünne Plattformen. Print-on-Demand als Strategie und Genre, in: Merkur. Deutsche Zeitschrift für europäisches Denken, Jg. 70, Nr. 800, S. 79.
 
-Bajohr, Hannes (2014): Schreibenlassen. Gegenwartsliteratur und die Furcht vorm Digitalen, in: Merkur. Deutsche Zeitschrift für europäisches Denken, Jg. 68, Nr. 782, S. 79.
+Bajohr, Hannes (2014): Schreibenlassen. Gegenwartsliteratur und die Furcht vorm Digitalen, in: Merkur. Deutsche Zeitschrift für europäisches Denken, Jg. 68, Nr. 782, S. 652.
 
 Cramer, Florian (2016): Postdigitales Schreiben, in: Bajohr, Hannes (Hrsg.), CODE UND KONZEPT. Literatur und das Digitale, Berlin, Frohmann.
 
