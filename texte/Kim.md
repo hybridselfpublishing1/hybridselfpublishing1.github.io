@@ -1,5 +1,6 @@
 
 # Don't put it online!
+*Kim Farkasch*
 
  Der klassische Autor, welcher seine Werke bisweilen analog publiziert hat, geht davon aus, dass das traditionelle Urheberrecht seine Werke ausreichend schützen könnte. Mit der Etablierung des E-publishings haben viele Autoren neue Möglichkeiten gesehen, ihre Bücher zu veröffentlichen und ihre Reichweite zu vergrößern , ohne über die Angreifbarkeit von digitalen Medien zu reflektieren. Die Illusion der Unantastbarkeit ihrer Arbeiten wurde spätestens dann zerstört, als Werke im Internet „geleaked“, kopiert, verbreitet, kommentiert und appropriiert wurden. Jetzt starten Autoren Diskurse über die Bedeutung von Autorschaft und der Zugänglichkeit ihrer Literatur. Dabei antagonisten manche von ihnen das Internet und seine freien und fast unkontrollierbaren Strukturen. 
 </br>
@@ -48,10 +49,8 @@ Letztlich scheint es so, als stecke man in einem unendlichen Dilemma zwischen de
 </br>
 </br>
 </br>
-</br>
-</br>
-</br>
- ## Literaturverzeichnis:
+__________
+**Literaturverzeichnis**
  
 Barlow, John Perry: *Selling Wine Without Bottles: The Economy of Mind on the Global Net*, [online]</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://www.eff.org/de/pages/selling-wine-without-bottles-economy-mind-global-net [04.03.2019].
