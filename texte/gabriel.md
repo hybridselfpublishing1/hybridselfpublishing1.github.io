@@ -14,7 +14,8 @@ In Anbetracht all dieser Aspekte lässt sich das Fazit ziehen, dass sich das hyb
 ____
 **Literaturverzeichnis**
 
-Bajohr, Hannes (2016): Infradünne Plattformen: Print-on-Demand als Strategie und Genre, Stuttgart: Klett-Cotta Verlag, S. 79-87.
+
+Bajohr, Hannes (2016): Infradünne Plattformen. Print-on-Demand als Strategie und Genre, in: Merkur. Deutsche Zeitschrift für europäisches Denken, Jg. 70, Nr. 800, S. 79-87.
 
 Dworkin, Craig, Gilbert, Annette, Morris, Simon, Soto, Carlos und Thurston, Nick (2012): Do or DIY, Zur Geschichte und Praxis des Selbstverlags, [online] https://www.dropbox.com/s/vbnxac51t4vazrx/do%20or%20diy.pdf?dl=0 [01.03.2019].
 
