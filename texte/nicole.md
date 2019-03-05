@@ -1,4 +1,4 @@
-# Ästhetik und Nichtästhetik in der kreativen Darreichungsform des Self Publishings
+# Ästhetik als neuartiges Genre der selbstpublizierten Literatur
 
 *Nicole Radtke*
 ___
