@@ -44,7 +44,7 @@ Bajohr, Hannes (2014): Schreibenlassen. Gegenwartsliteratur und die Furcht vorm 
 
 Cramer, Florian (2016): Postdigitales Schreiben, in: Bajohr, Hannes (Hrsg.), CODE UND KONZEPT. Literatur und das Digitale, Berlin, Frohmann.
 
-Cramer, Florian (2015): What Is ‚Post-digital’?, in: Berry, David M. und Dieter, Michael (Hrsg.), Postdigital Aesthetics. Art, Computation and Design, Aufl.1, Basingstoke in Hampshire, Palgrave Macmillan
+Cramer, Florian (2015): What Is ‚Post-digital’?, in: Berry, David M. und Dieter, Michael (Hrsg.), Postdigital Aesthetics. Art, Computation and Design, Aufl.1, Basingstoke in Hampshire, Palgrave Macmillan.
 
 Ludovico, Alessandro (2012): Post-Digital Print. The Mutation of Publishing since 1894, Eindhoven, Onomatopee.
 
