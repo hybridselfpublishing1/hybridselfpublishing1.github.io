@@ -36,12 +36,29 @@ Jedoch gibt es Programme welche versuchen nachzuziehen und eine Vereinbarkeit zw
 Ungeachtet dessen kritisieren Autoren weiterhin den losen Umgang Googles mit dem Urheberrecht, was verständlich sein mag, jedoch kann argumentiert werden, dass Google Books höchstwahrscheinlich mehrheitlich von Schülern und Studenten benutzt wird. Also eine Usergruppe, die sich niemals das Buch kaufen würde, noch ein Interesse an Copyright Verletzungen haben. Online Bibliotheken neben Gutenberg (welche ausschließlich Open Source ist), gibt es noch wenige. Und die Modelle, die bereits existieren und die Zugänglichkeit auf Usergruppen einschränken, sind bis jetzt nur im akademischen Bereich für Universitäten und Bibliotheken angesiedelt (vgl. Martin 2010: 4). Es ist fragwürdig, ob allen Autoren ausschließlich über diese Portale publizieren können.
 </br>
 </br>
-Was vielleicht viel eher das Problem von Autoren zu sein scheint, ist zu akzeptieren, dass sich die Zeiten auch endlich für die Literatur so verändern, wie sie es bereits für andere Medien getan haben. Die Aufregung über Fälle von Betrug, Plagiat und Fälschung werden immer noch skandalisiert, während  die Kunst, Musik, Programmierung, oder Wissenschaft diese Phänomene längst gewohnt sind und nur müde darüber Lächeln können (vgl. Goldsmith 2011: 3).
-
+Was vielleicht viel eher das Problem von Autoren zu sein scheint, ist zu akzeptieren, dass sich die Zeiten auch endlich für die Literatur so verändern, wie sie es bereits für andere Medien getan haben. Die Aufregung über Fälle von Betrug, Plagiat und Fälschung werden immer noch skandalisiert, während  die Kunst, Musik, Programmierung, oder Wissenschaft diese Phänomene längst gewohnt sind und nur müde darüber Lächeln können (vgl. Goldsmith 2011: 3).</br>
+Künstler des Surrealismus und Dadaismus haben bereits die Kunst im Zeitalter der mechanischen Kunstreproduktion ankommen sehen, und Künstler wie Andy Warhol bis Matthew Barney haben diese Entwicklung zu neuen Ebenen weiterentwickelt, welche zu äußerst komplexen Vorstellungen für Identität, Medien und Kultur führten. Diese wurden dann Teil der Mainstreambewegung, bis Gegenbewegungen, basierend auf Aufrichtigkeit und Repräsentation, auftauchten. Ähnlich gibt es in der Musik die Technik des Samplings (bei der ein neuer Song aus fremden Material konstruiert wird), welche in der Musikbranche zur Gewohnheit geworden ist. Über die verschiedensten Medien hinweg, scheint die Kultur die Digitalisierung in all ihrer Komplexität zu akzeptieren. Einzige Ausnahme ist seither die Literatur, welche immer noch versucht eine authentische und stabile Identität beizubehalten (Goldsmith 2011: 4). Entgegen dieser Behauptung, merken mache Autoren an, dass die Literatur-Szene sich selber nicht durch Originalität und eigene Kreativität auszeichnet, wie sie es immer vorzugeben scheint. Kenneth Goldsmith zum Beispiel verweist auf den Pro-Plagiats Essay von Jonathan Lethem (2007), welcher eine Geschichte der Literatur beschreibt, in der Ideen durchgehend geteilt, wiederverwertet, gestohlen, zitiert, vervielfältigt, appropriiert und nachgeahmt wurden. Laut Goldsmith erinnert Lethem daran, dass offener Zugang zu öffentlichem Gemeingut neue Arbeiten kreieren kann, bei der alte Thematiken die Basis für neue Themen schaffen (vgl. Goldsmith 2011:1). Cory Doctorow legte sogar offen, wie ihm durch 'googlen' auffiel, dass er Teile von fremden Werken unterbewusst für seine eigenen Ideen gehalten und publiziert hatte (vgl. Goldsmith 2011:1).
+</br>
+</br>
+Letztlich scheint es so, als stecke man in einem unendlichen Dilemma zwischen der Tradition und der Neuzeit. Denn natürlich soll ein Autor, der seine Publikation nicht offen zugänglich machen will, dies tun und sich dabei auf sein Urheberrecht beziehen können. Andererseits müssen Autoren vielleicht auch lernen zu akzeptieren, dass auch die Literatur im Zeitalter der mechanischen Reproduzierbarkeit angekommen ist und aufhören, die freie Kopie, Appropriation oder Immitation zu stigmatisieren. Schließlich ist Literatur auch in Teilen eine Kunstform und sollte ebenfalls den selben Regeln unterliegen wie die Bildende und Darstellende Kunst. Die Möglichkeiten, Raubkopie zu stoppen, sind zumal begrenzt: Wenn erst eine Raubkopie von einem Werk existiert, so ist es praktisch unmöglich, sie aus dem Internet zu tilgen. Vielleicht gibt es zur Zeit nur eine wahre Lösung für das Problem der Autoren. Es ist ein radikaler Vorschlag, den Goldsmith liefert und für jene Autoren, die gerne Reichweite hätten, mag er nicht besonders attraktiv wirken. Aber es ist eine logische Schlussfolgerung: „If you don't want it copied, don't put it online“ (Goldsmith 2011: 6).
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
  ## Literaturverzeichnis:
-
-
  
+Barlow, John Perry: *Selling Wine Without Bottles: The Economy of Mind on the Global Net*, [online]</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://www.eff.org/de/pages/selling-wine-without-bottles-economy-mind-global-net [04.03.2019].</pre>
+
+ Djordjevic, Valie et al. (2018): Dossier Urheberrecht, Bundeszentrale für politische Bildung (Hrsg.), Bonn [online]</br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwimuaWT5OngAhVDDOwKHY8RCnIQFjAAegQIARAC&url=http%3A%2F%2Fwww.bpb.de%2Fsystem%2Ffiles%2Fpdf_pdflib%2Fpdflib-168201.pdf&usg=AOvVaw04VNJ9UPgTFmD9pxgnN6RG [04.03.2019].
+
  
  
 
