@@ -75,4 +75,4 @@ Rieble,Volker (2019): Autorenfreiheit und Publikationszwang, in: Volker Rieble u
 </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Werkherrschaft in digitaler Zeit*, Frankfurt am Main: Vittorio Klostermann GmbH, S. 29-66, [online] </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; http://download.klostermann.de/openaccess/9783465040903.pdf [04.03.2019].
 
 Weinmayr, Eva (2016): Library Underground — a reading list for a coming community, in: Annette 	Gilbert (Edit.), </br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Publishing as Artistic Practice*, Berlin, New York: Sternberg Press, S. 157-	187. [online] </br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; http://andpublishing.org/v2/wp-content/uploads/2016/05/Eva-Weinmayr-	Library-Underground-Sternberg.pdf </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [04.03.2019].
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; http://andpublishing.org/v2/wp-content/uploads/2016/05/Eva-Weinmayr-Library-Underground-Sternberg.pdf </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [04.03.2019].
