@@ -56,13 +56,13 @@ __________
 Barlow, John Perry: *Selling Wine Without Bottles: The Economy of Mind on the Global Net*, [online]</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://www.eff.org/de/pages/selling-wine-without-bottles-economy-mind-global-net [04.03.2019].
 
+Cramer, Florian (2002): *VOM FREIEN GEBRAUCH VON NULLEN UND EINSEN –„OPEN 	CONTENT“ UND FREIE SOFTWARE,* </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in: *Managing Language in the Digital Age, 	Columbia University Press*, [online]</br> 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://cramer.pleintekst.nl/all/open_content/open_content.pdf [04.03.2019]. 
 
  Djordjevic, Valie et al. (2018): *Dossier Urheberrecht*, Bundeszentrale für politische Bildung (Hrsg.), Bonn [online]</br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwimuaWT5OngAhVDDOwKHY8RCnIQFjAAegQIARAC&url=http%3A%2F%2Fwww.bpb.de%2Fsystem%2Ffiles%2Fpdf_pdflib%2Fpdflib-168201.pdf&usg=AOvVaw04VNJ9UPgTFmD9pxgnN6RG [04.03.2019].
 
  
-Cramer, Florian (2002): *VOM FREIEN GEBRAUCH VON NULLEN UND EINSEN –„OPEN 	CONTENT“ UND FREIE SOFTWARE,* </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in: *Managing Language in the Digital Age, 	Columbia University Press*, [online]</br> 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://cramer.pleintekst.nl/all/open_content/open_content.pdf [04.03.2019]. 
 
 Goldsmith, Kenneth (2011): *It's Not Plagiarism. In the Digital Age, It's 'Repurposing.',* [online] </br>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://expandedmedia1.files.wordpress.com/2012/06/uncreative-writing.pdf [04.03.2019]  
  
